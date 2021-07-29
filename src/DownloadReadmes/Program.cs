@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Net;
+using System.Text;
 using System.Threading.Tasks;
 using Octokit;
 
@@ -70,6 +71,20 @@ namespace DownloadReadmes
                 });
 
             await Task.WhenAll(tasks);
+
+            // TODO: Don't be lazy. Use real CSV writer to escape problems.
+            var repositoriesCsv = new StringBuilder();
+            var repositoriesCsvPath = Path.Combine(args[1], "repositories.csv");
+
+            repositoriesCsv.AppendLine("Owner, Repository, Stars");
+            foreach (var repository in repositories.OrderByDescending(r => r.Stars))
+            {
+                repositoriesCsv.AppendLine($@"""{repository.Owner}"", ""{repository.Name}"", {repository.Stars}");
+            }
+
+            File.WriteAllText(
+                repositoriesCsvPath,
+                repositoriesCsv.ToString());
         }
 
         private static async Task<HashSet<Repository>> DiscoverRepositoriesAsync(GitHubClient client)
@@ -107,15 +122,15 @@ namespace DownloadReadmes
                         searchResults
                             .Items
                             .Where(i => i.Private == false)
-                            .Select(i => new Repository(i.Owner.Login, i.Name)));
-
-                    starCursor = searchResults.Items.Min(i => i.StargazersCount);
+                            .Select(i => new Repository(i.Owner.Login, i.Name, i.StargazersCount)));
                 }
+
+                starCursor = repositories.Min(r => r.Stars);
             }
 
             return repositories;
         }
     }
 
-    record Repository(string Owner, string Name);
+    record Repository(string Owner, string Name, int Stars);
 }
