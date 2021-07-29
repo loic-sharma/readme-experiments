@@ -15,6 +15,10 @@ NiPackageManifests
 | project LowerId, ProjectUrl, RepositoryUrl = RepositoryMetadata["Url"], Readme, TotalDownloads
 | where ProjectUrl contains "github.com" or RepositoryUrl contains "github.com"
 | order by TotalDownloads desc
+| serialize CumulativeTotalDownloads = row_cumsum(TotalDownloads)
+| as x
+| extend CumulativeTotalDownloadsPct = bin(100.0 * CumulativeTotalDownloads / toscalar(x | summarize sum(TotalDownloads)), 0.001)
+| project LowerId, ProjectUrl, RepositoryUrl, TotalDownloads, CumulativeTotalDownloadsPct, Readme
 ```
 
 
