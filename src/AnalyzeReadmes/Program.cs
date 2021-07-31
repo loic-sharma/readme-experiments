@@ -93,24 +93,26 @@ namespace AnalyzeReadmes
                     .Value
                     .Select(repository => new DisallowedHostRecord(
                         host.Key,
-                        repository.Owner,
-                        repository.Repository,
+                        repository.GitHubProjectMd,
+                        repository.NuGetPreviewMd,
                         repository.Stars)));
             var codeFenceRecords = ctx
                 .CodeFences
                 .OrderByDescending(f => f.Repository.Stars)
                 .ThenBy(f => (f.Repository.Owner, f.Repository.Repository))
                 .Select(f => new CodeFenceRecord(
-                    f.Repository.Owner,
-                    f.Repository.Repository,
+                    f.Repository.GitHubProjectMd,
+                    f.Repository.NuGetPreviewMd,
                     f.Repository.Stars,
                     f.Kind));
             var tableRecords = ctx
                 .Tables
-                .OrderByDescending(r => r.Stars);
+                .OrderByDescending(r => r.Stars)
+                .Select(r => new GenericRecord(r.GitHubProjectMd, r.NuGetPreviewMd, r.Stars));
             var htmlRecords = ctx
                 .Htmls
-                .OrderByDescending(r => r.Stars);
+                .OrderByDescending(r => r.Stars)
+                .Select(r => new GenericRecord(r.GitHubProjectMd, r.NuGetPreviewMd, r.Stars));
 
             var disallowedHostsPath = Path.Combine(reportsPath, "disallowedImageHosts.csv");
             var codeFencesPath = Path.Combine(reportsPath, "codeFences.csv");
@@ -145,9 +147,15 @@ namespace AnalyzeReadmes
         }
     }
 
-    record Repo(string Owner, string Repository, int Stars);
-    record DisallowedHostRecord(string Host, string Owner, string Repository, int Stars);
-    record CodeFenceRecord(string Owner, string Repository, int Stars, string CodeFenceKind);
+    record Repo(string Owner, string Repository, int Stars)
+    {
+        public string GitHubProjectMd => $"[{Owner}/{Repository}](https://www.github.com/{Owner}/{Repository}#readme)";
+        public string NuGetPreviewMd => $"[Preview](https://dev.nugettest.org/packages/loic.{Owner}.{Repository}?preview=1#show-readme-container)";
+
+    }
+    record DisallowedHostRecord(string Host, string GitHubProject, string NuGetPreview, int Stars);
+    record CodeFenceRecord(string GitHubProject, string NuGetPreview, int Stars, string CodeFenceKind);
+    record GenericRecord(string GitHubProject, string NuGetPreview, int Stars);
 
     record AnalysisContext(
         Dictionary<string, HashSet<Repo>> DisallowedHosts,
