@@ -2,7 +2,9 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Text.RegularExpressions;
 using Markdig;
+using Markdig.Extensions.Emoji;
 using Markdig.Extensions.Tables;
 using Markdig.Extensions.TaskLists;
 using Markdig.Syntax;
@@ -69,6 +71,7 @@ namespace AnalyzeReadmes
 
             var pipeline = new MarkdownPipelineBuilder()
                 .UseAdvancedExtensions()
+                .UseEmojiAndSmiley(enableSmileys: false)
                 .Build();
 
             var ctx = AnalysisContext.Create();
@@ -97,6 +100,16 @@ namespace AnalyzeReadmes
                         repository.GitHubProjectMd,
                         repository.NuGetPreviewMd,
                         repository.Stars)));
+            var htmlElementRecords = ctx
+                .HtmlElements
+                .OrderByDescending(element => element.Value.Sum(r => r.Stars))
+                .SelectMany(element => element
+                    .Value
+                    .Select(repository => new HtmlElementRecord(
+                        element.Key,
+                        repository.GitHubProjectMd,
+                        repository.NuGetPreviewMd,
+                        repository.Stars)));
             var codeFenceRecords = ctx
                 .CodeFences
                 .OrderByDescending(f => f.Repository.Stars)
@@ -117,16 +130,18 @@ namespace AnalyzeReadmes
             var htmlRecords = ctx
                 .Htmls
                 .OrderByDescending(r => r.Stars)
-                .Select(r => new GenericRecord(r.GitHubProjectMd, r.NuGetPreviewMd, r.Stars));
+                .Select(r=> new GenericRecord(r.GitHubProjectMd, r.NuGetPreviewMd, r.Stars));
 
             var disallowedHostsPath = Path.Combine(reportsPath, "disallowedImageHosts.csv");
             var strikethroughPath = Path.Combine(reportsPath, "strikethroughs.csv");
+            var htmlElementPath = Path.Combine(reportsPath, "htmlElements.csv");
             var codeFencesPath = Path.Combine(reportsPath, "codeFences.csv");
             var tablesPath = Path.Combine(reportsPath, "tables.csv");
             var htmlsPath = Path.Combine(reportsPath, "htmls.csv");
 
             File.WriteAllText(disallowedHostsPath, CsvSerializer.SerializeToString(disallowedHostRecords));
             File.WriteAllText(strikethroughPath, CsvSerializer.SerializeToString(strikethroughRecords));
+            File.WriteAllText(htmlElementPath, CsvSerializer.SerializeToString(htmlElementRecords));
             File.WriteAllText(codeFencesPath, CsvSerializer.SerializeToString(codeFenceRecords));
             File.WriteAllText(tablesPath, CsvSerializer.SerializeToString(tableRecords));
             File.WriteAllText(htmlsPath, CsvSerializer.SerializeToString(htmlRecords));
@@ -148,7 +163,8 @@ namespace AnalyzeReadmes
                 }
 
                 if (node is Table) ctx.Tables.Add(repository);
-                if (node is HtmlBlock) ctx.Htmls.Add(repository);
+                if (node is HtmlBlock html) ctx.TrackHtmlBlock(repository, html);
+
                 if (node is FencedCodeBlock code) ctx.CodeFences.Add((code.Info, repository));
                 if (node is EmphasisInline { DelimiterChar: '~' }) ctx.Strikethroughs.Add(repository);
             }
@@ -162,18 +178,21 @@ namespace AnalyzeReadmes
 
     }
     record DisallowedHostRecord(string Host, string GitHubProject, string NuGetPreview, int Stars);
+    record HtmlElementRecord(string HtmlElement, string GitHubProject, string NuGetPreview, int Stars);
     record CodeFenceRecord(string GitHubProject, string NuGetPreview, int Stars, string CodeFenceKind);
     record GenericRecord(string GitHubProject, string NuGetPreview, int Stars);
 
     record AnalysisContext(
         Dictionary<string, HashSet<Repo>> DisallowedHosts,
+        Dictionary<string, HashSet<Repo>> HtmlElements,
         HashSet<(string Kind, Repo Repository)> CodeFences,
-        HashSet<Repo> Tables,
         HashSet<Repo> Htmls,
+        HashSet<Repo> Tables,
         HashSet<Repo> Strikethroughs)
     {
         // TODO: Better way??
         public static AnalysisContext Create() => new(
+            new(StringComparer.OrdinalIgnoreCase),
             new(StringComparer.OrdinalIgnoreCase),
             new(),
             new(),
@@ -189,6 +208,31 @@ namespace AnalyzeReadmes
             }
 
             repositories.Add(repository);
+        }
+
+        public void TrackHtmlBlock(Repo repository, HtmlBlock block)
+        {
+            Htmls.Add(repository);
+
+            // Thankfully regex is perfect to parse HTML
+            // See: https://stackoverflow.com/a/1732454
+            var html = block.Lines.ToString();
+            var match = Regex.Match(html, @"<(([a-zA-Z]+[1-9]?)|!--)");
+
+            while (match.Success)
+            {
+                var element = match.Groups[1].Value;
+
+                if (!HtmlElements.TryGetValue(element, out var repositories))
+                {
+                    repositories = new HashSet<Repo>();
+                    HtmlElements.Add(element, repositories);
+                }
+
+                repositories.Add(repository);
+
+                match = match.NextMatch();
+            }
         }
     }
 }
