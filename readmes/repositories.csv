@@ -1,806 +1,806 @@
 Owner, Repository, Stars
-"microsoft", "PowerToys", 57582
-"shadowsocks", "shadowsocks-windows", 52624
-"PowerShell", "PowerShell", 27894
-"dotnet", "aspnetcore", 25192
-"CodeHubApp", "CodeHub", 23329
-"2dust", "v2rayN", 21587
-"Wox-launcher", "Wox", 20493
-"dnSpy", "dnSpy", 18634
-"dotnet-architecture", "eShopOnContainers", 18232
-"ShareX", "ShareX", 16690
-"mxgmn", "WaveFunctionCollapse", 16662
-"NickeManarin", "ScreenToGif", 14981
-"thangchung", "awesome-dotnet-core", 14884
-"dotnet", "roslyn", 14697
-"DapperLib", "Dapper", 13946
-"icsharpcode", "ILSpy", 13104
-"AvaloniaUI", "Avalonia", 11675
-"files-community", "Files", 11561
-"Unity-Technologies", "ml-agents", 11411
-"jellyfin", "jellyfin", 11319
-"MaterialDesignInXAML", "MaterialDesignInXamlToolkit", 11050
-"dotnet", "maui", 10751
-"huiyadanli", "RevokeMsgPatcher", 10640
-"dotnet", "efcore", 10415
-"aspnetboilerplate", "aspnetboilerplate", 9716
-"dotnet", "AspNetCore.Docs", 9508
-"OpenRA", "OpenRA", 9490
-"App-vNext", "Polly", 9444
-"lionsoul2014", "ip2region", 9435
-"mono", "mono", 9399
-"Ryujinx", "Ryujinx", 9324
-"QL-Win", "QuickLook", 9277
-"netchx", "netch", 9164
-"JamesNK", "Newtonsoft.Json", 8693
-"SignalR", "SignalR", 8397
-"AutoMapper", "AutoMapper", 8157
-"IdentityServer", "IdentityServer4", 8120
-"cefsharp", "CefSharp", 8113
-"bitwarden", "server", 8037
-"Unity-Technologies", "UnityCsReference", 8020
-"felixse", "FluentTerminal", 7977
-"restsharp", "RestSharp", 7950
-"MahApps", "MahApps.Metro", 7810
-"dotnet", "orleans", 7708
-"MonoGame", "MonoGame", 7634
-"chocolatey", "choco", 7589
-"dotnet", "machinelearning", 7585
-"ppy", "osu", 7541
-"dotnet", "csharplang", 7287
-"ardalis", "CleanArchitecture", 7277
-"NancyFx", "Nancy", 7140
-"JeffreySu", "WeiXinMPSDK", 6897
-"HangfireIO", "Hangfire", 6836
-"JustArchiNET", "ArchiSteamFarm", 6810
-"dotnet", "BenchmarkDotNet", 6708
-"jbogard", "MediatR", 6701
-"microsoft", "ailab", 6651
-"dotnet", "runtime", 6614
-"Sonarr", "Sonarr", 6505
-"FluentValidation", "FluentValidation", 6465
-"abpframework", "abp", 6452
-"nopSolutions", "nopCommerce", 6439
-"reactiveui", "ReactiveUI", 6407
-"ThreeMammals", "Ocelot", 6374
-"duplicati", "duplicati", 6327
-"Perfare", "AssetStudio", 6304
-"dotnet-architecture", "eShopOnWeb", 6299
-"MathewSachin", "Captura", 6245
-"xupefei", "Locale-Emulator", 6194
-"dvf", "blockchain", 6145
-"Jackett", "Jackett", 6132
-"Humanizr", "Humanizer", 6093
-"jasontaylordev", "CleanArchitecture", 6037
-"winsw", "winsw", 5939
-"carlospolop", "PEASS-ng", 5912
-"mbdavid", "LiteDB", 5880
-"ElectronNET", "Electron.NET", 5836
-"dodyg", "practical-aspnetcore", 5754
-"gitextensions", "gitextensions", 5749
-"aspnet", "Mvc", 5732
-"kgrzybek", "modular-monolith-with-ddd", 5579
-"mRemoteNG", "mRemoteNG", 5519
-"TGSAN", "CMWTAT_Digital_Edition", 5515
-"migueldeicaza", "gui.cs", 5494
-"lambci", "docker-lambda", 5490
-"microsoft", "VFSForGit", 5485
-"xamarin", "Xamarin.Forms", 5366
-"Radarr", "Radarr", 5314
-"nilaoda", "N_m3u8DL-CLI", 5290
-"QuantConnect", "Lean", 5263
-"de4dot", "de4dot", 5252
-"neuecc", "UniRx", 5236
-"dotnet", "wpf", 5234
-"OrchardCMS", "OrchardCore", 5231
-"reactiveui", "refit", 5188
-"sschmid", "Entitas-CSharp", 5166
-"NLog", "NLog", 5128
-"unoplatform", "uno", 5045
-"dotnet", "reactive", 5033
-"dotnetcore", "CAP", 4949
-"Live-Charts", "Live-Charts", 4931
-"ServiceStack", "ServiceStack", 4927
-"SixLabors", "ImageSharp", 4891
-"EduardoPires", "EquinoxProject", 4888
-"graphql-dotnet", "graphql-dotnet", 4858
-"JasonStein", "Notepads", 4845
-"StackExchange", "StackExchange.Redis", 4843
-"HMBSbige", "ShadowsocksR-Windows", 4824
-"serilog", "serilog", 4696
-"bchavez", "Bogus", 4680
-"egametang", "ET", 4639
-"PrismLibrary", "Prism", 4636
-"microsoft", "FASTER", 4618
-"microsoft", "MixedRealityToolkit-Unity", 4609
-"hbons", "SparkleShare", 4596
-"quartznet", "quartznet", 4591
-"rocksdanister", "lively", 4564
-"dotnet", "msbuild", 4548
-"quasar", "Quasar", 4546
-"jasontaylordev", "NorthwindTraders", 4499
-"RicoSuter", "NSwag", 4480
-"shadowsocksr-backup", "shadowsocksr-csharp", 4469
-"aalhour", "C-Sharp-Algorithms", 4437
-"HearthSim", "Hearthstone-Deck-Tracker", 4411
-"CommunityToolkit", "WindowsCommunityToolkit", 4347
-"Redth", "PushSharp", 4321
-"File-New-Project", "EarTrumpet", 4267
-"StockSharp", "StockSharp", 4254
-"EventStore", "EventStore", 4247
-"sta", "websocket-sharp", 4244
-"jstedfast", "MailKit", 4198
-"moq", "moq4", 4186
-"win-acme", "win-acme", 4170
-"studyzy", "imewlconverter", 4159
-"pojala", "electrino", 4138
-"itinance", "react-native-fs", 4121
-"accord-net", "framework", 4110
-"opserver", "Opserver", 4092
-"Unity-Technologies", "EntityComponentSystemSamples", 4075
-"randyrants", "sharpkeys", 4053
-"Unity-Technologies", "FPSSample", 4043
-"thangchung", "clean-code-dotnet", 4034
-"microsoft", "microsoft-ui-xaml", 4028
-"domaindrivendev", "Swashbuckle.AspNetCore", 3993
-"Jimmey-Jiang", "Common.Utility", 3987
-"dotnet-state-machine", "stateless", 3920
-"akkadotnet", "akka.net", 3911
-"openhardwaremonitor", "openhardwaremonitor", 3884
-"lucasg", "Dependencies", 3861
-"UnityTechnologies", "open-project-1", 3860
-"xamarin", "xamarin-forms-samples", 3857
-"OptiKey", "OptiKey", 3850
-"microsoft", "ApplicationInspector", 3825
-"AngleSharp", "AngleSharp", 3820
-"nissl-lab", "npoi", 3817
-"brandonlw", "Psychson", 3790
-"dotnetcore", "Util", 3772
-"louthy", "language-ext", 3745
-"MassTransit", "MassTransit", 3726
-"dotnet", "tye", 3651
-"microsoft", "reverse-proxy", 3596
-"microsoft", "VisualStudioUninstaller", 3594
-"autofac", "Autofac", 3561
-"MvvmCross", "MvvmCross", 3554
-"donet5", "SqlSugar", 3546
-"ant-design-blazor", "ant-design-blazor", 3509
-"protobuf-net", "protobuf-net", 3493
-"Unity-Technologies", "PostProcessing", 3477
-"udacity", "self-driving-car-sim", 3468
-"JanKallman", "EPPlus", 3467
-"neuecc", "MessagePack-CSharp", 3458
-"naudio", "NAudio", 3439
-"davidfowl", "AspNetCoreDiagnosticScenarios", 3413
-"Topshelf", "Topshelf", 3403
-"umbraco", "Umbraco-CMS", 3379
-"spectreconsole", "spectre.console", 3372
-"ExtendRealityLtd", "VRTK", 3367
-"Fody", "Fody", 3360
-"simplcommerce", "SimplCommerce", 3348
-"JoshClose", "CsvHelper", 3323
-"Azure", "DotNetty", 3301
-"neo-project", "neo", 3294
-"shimat", "opencvsharp", 3293
-"danielgerlag", "workflow-core", 3279
-"JosefNemec", "Playnite", 3255
-"stride3d", "stride", 3254
-"Codeusa", "Borderless-Gaming", 3248
-"anjoy8", "Blog.Core", 3247
-"SteamTools-Team", "SteamTools", 3196
-"stnkl", "EverythingToolbar", 3162
-"VsVim", "VsVim", 3161
-"dotnetcore", "WTM", 3137
-"mob-sakai", "UIEffect", 3136
-"intel", "acat", 3136
-"dotnet", "winforms", 3133
-"aspnet", "JavaScriptServices", 3117
-"elastic", "elasticsearch-net", 3107
-"marian42", "wavefunctioncollapse", 3101
-"SubtitleEdit", "subtitleedit", 3093
-"dotnetcore", "DotnetSpider", 3088
-"dotnet", "standard", 3061
-"fanliang11", "surging", 3058
-"TheBerkin", "rant3", 3051
-"praeclarum", "sqlite-net", 3020
-"migueldeicaza", "TensorFlowSharp", 2997
-"canton7", "SyncTrayzor", 2991
-"cake-build", "cake", 2988
-"yck1509", "ConfuserEx", 2981
-"domaindrivendev", "Swashbuckle.WebApi", 2979
-"Perfare", "Il2CppDumper", 2966
-"commandlineparser", "commandline", 2966
-"EllanJiang", "GameFramework", 2965
-"kerryjiang", "SuperSocket", 2962
-"xunit", "xunit", 2958
-"proxysu", "ProxySU", 2954
-"HandyOrg", "HandyControl", 2950
-"ivanpaulovich", "clean-architecture-manga", 2927
-"playgameservices", "play-games-plugin-for-unity", 2921
-"d2phap", "ImageGlass", 2916
-"dotnetcore", "FreeSql", 2887
-"MediaBrowser", "Emby", 2882
-"dotnet", "corert", 2873
-"ferventdesert", "Hawk", 2872
-"ClusterM", "hakchi2", 2870
-"Accelerider", "BaiduPanDownloadWinform", 2863
-"picoe", "Eto", 2849
-"Jays2Kings", "DS4Windows", 2841
-"inkle", "ink", 2839
-"xceedsoftware", "wpftoolkit", 2838
-"OfficeDev", "Open-XML-SDK", 2836
-"skoruba", "IdentityServer4.Admin", 2817
-"btcpayserver", "btcpayserver", 2813
-"KeenSoftwareHouse", "SpaceEngineers", 2812
-"siteserver", "cms", 2795
-"ExcelDataReader", "ExcelDataReader", 2793
-"bitwarden", "mobile", 2783
-"projectkudu", "kudu", 2782
-"lostindark", "DriverStoreExplorer", 2777
-"ravendb", "ravendb", 2769
-"dotnet", "docfx", 2725
-"Dotnet-Boxed", "Templates", 2721
-"icsharpcode", "SharpZipLib", 2711
-"microsoft", "Git-Credential-Manager-for-Windows", 2708
-"microsoft", "perfview", 2703
-"TheAlgorithms", "C-Sharp", 2701
-"googlevr", "gvr-unity-sdk", 2692
-"BluePointLilac", "ContextMenuManager", 2684
-"morelinq", "MoreLINQ", 2683
-"Azure", "azure-powershell", 2682
-"grpc", "grpc-dotnet", 2673
-"mono", "monodevelop", 2660
-"pardeike", "Harmony", 2660
-"elvirbrk", "NoteHighlight2016", 2658
-"StephenCleary", "AsyncEx", 2654
-"tmenier", "Flurl", 2652
-"Tyrrrz", "DiscordChatExporter", 2649
-"pythonnet", "pythonnet", 2647
-"zalo", "MathUtilities", 2643
-"nefarius", "ScpToolkit", 2637
-"chromelyapps", "Chromely", 2636
-"mongodb", "mongo-csharp-driver", 2633
-"aspnet", "KestrelHttpServer", 2629
-"k8gege", "Ladon", 2625
-"ClosedXML", "ClosedXML", 2578
-"mathnet", "mathnet-numerics", 2565
-"Ombi-app", "Ombi", 2565
-"ChilliCream", "hotchocolate", 2554
-"vis2k", "Mirror", 2553
-"topameng", "tolua", 2549
-"fluentmigrator", "fluentmigrator", 2549
-"xoofx", "markdig", 2536
-"sshnet", "SSH.NET", 2532
-"SeriaWei", "ZKEACMS", 2530
-"codebude", "QRCoder", 2529
-"cobbr", "Covenant", 2498
-"NoelFB", "Celeste", 2496
-"microsoft", "referencesource", 2492
-"ninject", "Ninject", 2479
-"keijiro", "Skinner", 2474
-"Azure", "azure-sdk-for-net", 2473
-"firstfloorsoftware", "mui", 2453
-"dockersamples", "example-voting-app", 2439
-"JimBobSquarePants", "ImageProcessor", 2431
-"gibbed", "SteamAchievementManager", 2426
-"Armin2208", "Windows-Auto-Night-Mode", 2419
-"t1m0thyj", "WinDynamicDesktop", 2408
-"aspnet", "SignalR", 2402
-"OpenLiveWriter", "OpenLiveWriter", 2389
-"Xabaril", "AspNetCore.Diagnostics.HealthChecks", 2384
-"dbrizov", "NaughtyAttributes", 2384
-"libgit2", "libgit2sharp", 2381
-"microsoft", "WinAppDriver", 2368
-"MiniProfiler", "dotnet", 2367
-"AutoFixture", "AutoFixture", 2363
-"greenshot", "greenshot", 2359
-"microsoft", "PTVS", 2357
-"oxyplot", "oxyplot", 2343
-"Cysharp", "MagicOnion", 2337
-"Caliburn-Micro", "Caliburn.Micro", 2334
-"XINCGer", "Unity3DTraining", 2333
-"scriptcs", "scriptcs", 2314
-"Glimpse", "Glimpse", 2309
-"npgsql", "npgsql", 2306
-"IgnaceMaes", "MaterialSkin", 2303
-"sebastienros", "jint", 2293
-"OneGet", "oneget", 2287
-"keenanwoodall", "Deform", 2286
-"QianMo", "Unity-Design-Pattern", 2281
-"dotnet-presentations", "blazor-workshop", 2280
-"zeromq", "netmq", 2267
-"mono", "SkiaSharp", 2261
-"smartstore", "SmartStoreNET", 2260
-"fluentassertions", "fluentassertions", 2257
-"bridgedotnet", "Bridge", 2248
-"github-for-unity", "Unity", 2243
-"Ourpalm", "ILRuntime", 2241
-"Kinnara", "ModernWpf", 2237
-"chkr1011", "MQTTnet", 2229
-"wave-harmonic", "crest", 2227
-"fluentscheduler", "FluentScheduler", 2227
-"Franiac", "TwitchLeecher", 2218
-"ldqk", "Masuit.Tools", 2200
-"ServiceStack", "ServiceStack.Redis", 2185
-"neuecc", "ZeroFormatter", 2176
-"Tencent", "behaviac", 2175
-"dotnet", "command-line-api", 2173
-"dotnet", "extensions", 2172
-"dotnet", "try", 2166
-"EasyNetQ", "EasyNetQ", 2165
-"Unity-Technologies", "NavMeshComponents", 2159
-"CosmosOS", "Cosmos", 2139
-"opentk", "opentk", 2137
-"coverlet-coverage", "coverlet", 2136
-"ddevault", "TrueCraft", 2136
-"LazoCoder", "Windows-Hacks", 2132
-"liangxiegame", "QFramework", 2123
-"rafaelfgx", "Architecture", 2121
-"mono", "CppSharp", 2120
-"reactiveui", "Akavache", 2120
-"Cysharp", "UniTask", 2118
-"xamarin", "monodroid-samples", 2116
-"p-org", "P", 2114
-"reactjs", "React.NET", 2111
-"JosefPihrt", "Roslynator", 2099
-"github", "VisualStudio", 2098
-"octokit", "octokit.net", 2097
-"neuecc", "Utf8Json", 2095
-"linq2db", "linq2db", 2091
-"wesdoyle", "design-patterns-explained-with-food", 2090
-"PowerShell", "PSReadLine", 2085
-"microsoft", "AttackSurfaceAnalyzer", 2075
-"kevin-montrose", "Jil", 2068
-"cq-panda", "Vue.NetCore", 2063
-"microsoft", "aspnet-api-versioning", 2058
-"exceptionless", "Exceptionless", 2055
-"nunit", "nunit", 2053
-"RevenantX", "LiteNetLib", 2047
-"IdentityServer", "IdentityServer3", 2040
-"discord-net", "Discord.Net", 2040
-"jbevain", "cecil", 2036
-"dotnetcore", "osharp", 2024
-"Lidarr", "Lidarr", 2022
-"xamarin", "xamarin-macios", 2022
-"microsoft", "WindowsTemplateStudio", 2015
-"GitTools", "GitVersion", 2013
-"PomeloFoundation", "Pomelo.EntityFrameworkCore.MySql", 1998
-"confluentinc", "confluent-kafka-dotnet", 1997
-"borisdj", "EFCore.BulkExtensions", 1995
-"SciSharp", "TensorFlow.NET", 1994
-"MichaCo", "CacheManager", 1993
-"Impostor", "Impostor", 1991
-"openiddict", "openiddict-core", 1991
-"Antaris", "RazorEngine", 1983
-"NetDimension", "NanUI", 1980
-"microsoft", "GraphEngine", 1976
-"hardkoded", "puppeteer-sharp", 1968
-"sqlkata", "querybuilder", 1964
-"xamarin", "XamarinComponents", 1963
-"Megabit", "Blazorise", 1963
-"x360ce", "x360ce", 1961
-"GavinYellow", "SharpSCADA", 1947
-"aspnet", "Identity", 1939
-"nodatime", "nodatime", 1936
-"stefanprodan", "AspNetCoreRateLimit", 1936
-"benaadams", "Ben.Demystifier", 1933
-"zzzprojects", "html-agility-pack", 1920
-"AppMetrics", "AppMetrics", 1916
-"RolandPheasant", "TailBlazer", 1912
-"sjdirect", "abot", 1911
-"Code52", "carnac", 1908
-"fairygui", "FairyGUI-unity", 1907
-"googlevr", "tilt-brush", 1905
-"dlemstra", "Magick.NET", 1904
-"DotNetAnalyzers", "StyleCopAnalyzers", 1903
-"UnityTech", "UIWidgets", 1877
-"jarjin", "LuaFramework_UGUI", 1874
-"NuGetPackageExplorer", "NuGetPackageExplorer", 1873
-"Siccity", "xNode", 1868
-"nhibernate", "nhibernate-core", 1866
-"peachpiecompiler", "peachpie", 1863
-"eventflow", "EventFlow", 1860
-"gregoryyoung", "m-r", 1857
-"Cenmrev", "V2RayW", 1854
-"actions", "runner", 1851
-"SteamRE", "SteamKit", 1851
-"bitbeans", "SimpleDnsCrypt", 1845
-"pnp", "PnP", 1843
-"jamesmh", "coravel", 1830
-"FreyaHolmer", "ShaderForge", 1829
-"CollaboratingPlatypus", "PetaPoco", 1826
-"wolfgarbe", "SymSpell", 1822
-"jynew", "jynew", 1822
-"Fody", "Costura", 1816
-"cDima", "Aerial", 1809
-"tModLoader", "tModLoader", 1809
-"vietnam-devs", "coolstore-microservices", 1808
-"Tyrrrz", "YoutubeDownloader", 1806
-"pwntester", "ysoserial.net", 1803
-"TelegramBots", "Telegram.Bot", 1801
-"statianzo", "Fleck", 1800
-"sprache", "Sprache", 1799
-"SonyWWS", "ATF", 1798
-"EWSoftware", "SHFB", 1797
-"hirschmann", "nbfc", 1796
-"fluentribbon", "Fluent.Ribbon", 1794
-"hanmin0822", "MisakaTranslator", 1793
-"robinrodricks", "FluentFTP", 1790
-"icsharpcode", "SharpDevelop", 1782
-"Particular", "NServiceBus", 1780
-"FransBouma", "Massive", 1773
-"Facepunch", "Facepunch.Steamworks", 1772
-"microsoft", "nodejstools", 1769
-"ravibpatel", "AutoUpdater.NET", 1767
-"SpecFlowOSS", "SpecFlow", 1756
-"GhostPack", "Seatbelt", 1753
-"Unity-Technologies", "arfoundation-samples", 1753
-"tangxuehua", "enode", 1749
-"filipw", "dotnet-script", 1742
-"rlabrecque", "Steamworks.NET", 1733
-"SteveSanderson", "Blazor", 1733
-"micjahn", "ZXing.Net", 1729
-"grandnode", "grandnode", 1728
-"zzzprojects", "EntityFramework-Plus", 1728
-"loic-sharma", "BaGet", 1724
-"lukencode", "FluentEmail", 1722
-"khellang", "Scrutor", 1720
-"dotnetcore", "NPOI", 1718
-"kenvix", "USBCopyer", 1715
-"git-tfs", "git-tfs", 1703
-"mafaca", "UtinyRipper", 1701
-"MapsterMapper", "Mapster", 1694
-"NewEraCracker", "LOIC", 1692
-"filoe", "cscore", 1690
-"keijiro", "KinoGlitch", 1689
-"natemcmaster", "CommandLineUtils", 1689
-"DotNetOpenAuth", "DotNetOpenAuth", 1687
-"Jessecar96", "SteamDesktopAuthenticator", 1687
-"Seneral", "Node_Editor_Framework", 1687
-"blazorhero", "CleanArchitecture", 1679
-"Codeusa", "SteamCleaner", 1679
-"ModernFlyouts-Community", "ModernFlyouts", 1678
-"sq", "JSIL", 1677
-"dotnet", "samples", 1675
-"playdeadgames", "temporal", 1674
-"ButchersBoy", "Dragablz", 1674
-"UnityCommunity", "UnityLibrary", 1671
-"Tyrrrz", "YoutubeExplode", 1668
-"dotnet", "spark", 1668
-"jakubgarfield", "Bonobo-Git-Server", 1663
-"aws", "aws-sdk-net", 1662
-"mob-sakai", "ParticleEffectForUGUI", 1661
-"2881099", "csredis", 1659
-"builtbybel", "privatezilla", 1656
-"sidristij", "dotnetbook", 1655
-"Unity-Technologies", "BoatAttack", 1652
-"koush", "UniversalAdbDriver", 1645
-"mellinoe", "veldrid", 1644
-"rebus-org", "Rebus", 1640
-"Pryaxis", "TShock", 1628
-"charlesw", "tesseract", 1628
-"odedshimon", "BruteShark", 1628
-"apache", "lucenenet", 1627
-"jwt-dotnet", "jwt", 1621
-"ElevenPaths", "FOCA", 1615
-"nhibernate", "fluent-nhibernate", 1606
-"xamarin", "xamarin-android", 1601
-"antonpup", "Aurora", 1598
-"UnigramDev", "Unigram", 1595
-"Davidobot", "BetterJoy", 1594
-"kwsch", "PKHeX", 1593
-"microcharts-dotnet", "Microcharts", 1587
-"MetacoSA", "NBitcoin", 1586
-"nsubstitute", "NSubstitute", 1585
-"Azure", "azure-functions-host", 1584
-"shouldly", "shouldly", 1581
-"kgrzybek", "sample-dotnet-core-cqrs-api", 1567
-"FastReports", "FastReport", 1567
-"kwwwvagaa", "NetWinformControl", 1561
-"punker76", "gong-wpf-dragdrop", 1557
-"JasperFx", "marten", 1542
-"Syomus", "ProceduralToolkit", 1542
-"i-saint", "Unity5Effects", 1536
-"dotnetcore", "WebApiClient", 1534
-"GhostPack", "Rubeus", 1532
-"leiurayer", "downkyi", 1530
-"thepirat000", "Audit.NET", 1529
-"DbUp", "DbUp", 1529
-"scriban", "scriban", 1528
-"Klocman", "Bulk-Crap-Uninstaller", 1520
-"Unity-Technologies", "AssetBundles-Browser", 1520
-"SlightlyMad", "VolumetricLights", 1517
-"nxrighthere", "UnrealCLR", 1516
-"Demigiant", "dotween", 1515
-"praeclarum", "Ooui", 1513
-"wixtoolset", "wix3", 1510
-"Squidex", "squidex", 1509
-"JabbR", "JabbR", 1508
-"ServiceStack", "ServiceStack.OrmLite", 1507
-"adamhathcock", "sharpcompress", 1505
-"NEventStore", "NEventStore", 1503
-"aaubry", "YamlDotNet", 1502
-"tmsmith", "Dapper-Extensions", 1501
-"dotnet", "Docker.DotNet", 1499
-"jshackles", "idle_master", 1498
-"jimradford", "superputty", 1493
-"dotnet", "wcf", 1492
-"rabbitmq", "rabbitmq-dotnet-client", 1490
-"nickgravelyn", "UnityToolbag", 1483
-"xamarin", "ios-samples", 1480
-"XLabs", "Xamarin-Forms-Labs", 1475
-"dotnet", "corefxlab", 1473
-"ONLYOFFICE", "CommunityServer", 1471
-"sharpdx", "SharpDX", 1468
-"Xeroday", "Spotify-Ad-Blocker", 1463
-"xasset", "xasset", 1459
-"abishekaditya", "DesignPatterns", 1457
-"cairoshell", "cairoshell", 1457
-"ashmind", "SharpLab", 1454
-"liukuo362573", "YiShaAdmin", 1451
-"xamarin", "mobile-samples", 1445
-"bombomby", "optick", 1445
-"Tayx94", "graphy", 1443
-"LorenzCK", "OnTopReplica", 1443
-"rnwood", "smtp4dev", 1439
-"Elringus", "SpriteGlow", 1439
-"TouchScript", "TouchScript", 1437
-"lgsvl", "simulator", 1437
-"Garderoben", "MudBlazor", 1431
-"codecadwallader", "codemaid", 1425
-"dotnet", "pinvoke", 1425
-"ArcadeRenegade", "SidebarDiagnostics", 1424
-"gothinkster", "aspnetcore-realworld-example-app", 1422
-"BornToBeRoot", "NETworkManager", 1421
-"FoundatioFx", "Foundatio", 1419
-"asc-lab", "dotnetcore-microservices-poc", 1414
-"geffzhang", "NanoFabric", 1414
-"ivaylokenov", "MyTested.AspNetCore.Mvc", 1411
-"Windows-XAML", "Template10", 1410
-"danielpalme", "ReportGenerator", 1410
-"snoopwpf", "snoopwpf", 1410
-"dotnet", "iot", 1404
-"Auburn", "FastNoiseLite", 1403
-"aelij", "RoslynPad", 1403
-"xamarin", "Essentials", 1403
-"Fody", "PropertyChanged", 1401
-"keijiro", "Klak", 1399
-"NLua", "NLua", 1397
-"Mochengvia", "PanuonUI.Silver", 1394
-"yimengfan", "BDFramework.Core", 1391
-"statiqdev", "Statiq.Web", 1389
-"Cn33liz", "p0wnedShell", 1388
-"BeardedManStudios", "ForgeNetworkingRemastered", 1387
-"Accelerider", "Accelerider.Windows", 1385
-"samhocevar", "wincompose", 1384
-"dotnetcore", "AspectCore-Framework", 1384
-"rubberduck-vba", "Rubberduck", 1383
-"dafny-lang", "dafny", 1382
-"gerardog", "gsudo", 1381
-"dockpanelsuite", "dockpanelsuite", 1380
-"YarnSpinnerTool", "YarnSpinner", 1380
-"NewLifeX", "X", 1378
-"dotnet", "infer", 1374
-"outflanknl", "EvilClippy", 1373
-"lucent-sea", "Remotely", 1371
-"shack2", "SNETCracker", 1370
-"tjackenpacken", "taskbar-groups", 1369
-"monitor1394", "unity-ugui-XCharts", 1368
-"enkodellc", "blazorboilerplate", 1366
-"google-ar", "arcore-unity-sdk", 1364
-"paolosalvatori", "ServiceBusExplorer", 1362
-"FNA-XNA", "FNA", 1357
-"PiranhaCMS", "piranha.core", 1352
-"Unity-Technologies", "VolumetricLighting", 1348
-"setchi", "FancyScrollView", 1347
-"castleproject", "Core", 1346
-"sturdyspoon", "unity-movement-ai", 1342
-"xceedsoftware", "DocX", 1341
-"dotnetcore", "Magicodes.IE", 1341
-"QianMo", "X-PostProcessing-Library", 1339
-"xamarin", "XamarinCommunityToolkit", 1337
-"googleprojectzero", "sandbox-attacksurface-analysis-tools", 1334
-"markrendle", "Simple.Data", 1332
-"SkyAPM", "SkyAPM-dotnet", 1332
-"aspnet-contrib", "AspNet.Security.OAuth.Providers", 1329
-"castleproject", "Windsor", 1328
-"NuGet", "NuGetGallery", 1328
-"luberda-molinet", "FFImageLoading", 1328
-"Tencent", "InjectFix", 1328
-"Code52", "DownmarkerWPF", 1327
-"KSP-CKAN", "CKAN", 1326
-"Belphemur", "SoundSwitch", 1323
-"zzzprojects", "EntityFramework.Extended", 1314
-"Monnoroch", "ColorHighlighter", 1309
-"BepInEx", "BepInEx", 1305
-"RaduMC", "AssetStudio", 1303
-"mikependon", "RepoDB", 1298
-"scientistproject", "Scientist.net", 1298
-"Nethereum", "Nethereum", 1297
-"0xd4d", "dnlib", 1296
-"winauth", "winauth", 1296
-"emgucv", "emgucv", 1290
-"zkSNACKs", "WalletWasabi", 1289
-"open-telemetry", "opentelemetry-dotnet", 1289
-"icedland", "iced", 1286
-"gigya", "microdot", 1286
-"mr-kelly", "KSFramework", 1285
-"shuxinqin", "Chloe", 1283
-"Assistant", "ModAssistant", 1282
-"jstedfast", "MimeKit", 1281
-"cobbr", "SharpSploit", 1279
-"ScutGame", "Scut", 1278
-"clojure", "clojure-clr", 1273
-"cube0x0", "CVE-2021-1675", 1260
-"microsoftarchive", "cqrs-journey", 1259
-"prime31", "Nez", 1259
-"Tyrrrz", "LightBulb", 1258
-"leinlin", "Miku-LuaProfiler", 1257
-"asadsahi", "AspNetCoreSpa", 1256
-"mono", "xwt", 1255
-"AdamsLair", "duality", 1255
-"dotnet", "ef6", 1251
-"nuke-build", "nuke", 1247
-"MahApps", "MahApps.Metro.IconPacks", 1244
-"dotnet", "interactive", 1242
-"amaneureka", "AtomOS", 1241
-"justcoding121", "titanium-web-proxy", 1235
-"944095635", "DMSkin", 1234
-"GaoKaiHaHa", "MyUnityFrameWork", 1226
-"PowerShell", "PSScriptAnalyzer", 1222
-"NeutroniumCore", "Neutronium", 1222
-"voat", "voat", 1219
-"zengzhan", "qqzeng-ip", 1215
-"qmlnet", "qmlnet", 1213
-"hallatore", "Netling", 1212
-"icsharpcode", "AvalonEdit", 1211
-"aspnet", "Security", 1210
-"TylerBrinkley", "Enums.NET", 1209
-"TASVideos", "BizHawk", 1209
-"iamoldli", "NetModular", 1208
-"telerik", "JustDecompileEngine", 1208
-"SonyWWS", "LevelEditor", 1208
-"Azure", "iotedge", 1207
-"1y0n", "AV_Evasion_Tool", 1207
-"stella3d", "job-system-cookbook", 1205
-"ardalis", "ApiEndpoints", 1204
-"AsynkronIT", "protoactor-dotnet", 1203
-"stefanprodan", "WebApiThrottle", 1203
-"microsoft", "azure-pipelines-agent", 1200
-"vkhorikov", "CSharpFunctionalExtensions", 1198
-"qiankanglai", "LoopScrollRect", 1198
-"Unity-Technologies", "multiplayer", 1196
-"Unity-Technologies", "UniversalRenderingExamples", 1196
-"tjoudeh", "AngularJSAuthentication", 1194
-"jaquadro", "NBTExplorer", 1191
-"zkavtaskin", "Domain-Driven-Design-Example", 1188
-"VitalElement", "AvalonStudio", 1187
-"ServiceStack", "ServiceStack.Text", 1187
-"ComponentFactory", "Krypton", 1186
-"MichalStrehovsky", "zerosharp", 1184
-"Sergio0694", "ComputeSharp", 1182
-"Tyrrrz", "CliWrap", 1178
-"SciSharp", "BotSharp", 1178
-"dotnet", "sdk", 1176
-"matterpreter", "DefenderCheck", 1174
-"phw198", "OutlookGoogleCalendarSync", 1174
-"sailro", "Reflexil", 1173
-"dotnet", "codeformatter", 1172
-"Pixeval", "Pixeval", 1168
-"ebekker", "ACMESharp", 1165
-"FakeItEasy", "FakeItEasy", 1165
-"Jessecar96", "SteamBot", 1164
-"JavScraper", "Emby.Plugins.JavScraper", 1163
-"SubnauticaNitrox", "Nitrox", 1163
-"microsoft", "Microsoft.IO.RecyclableMemoryStream", 1156
-"keijiro", "Voxelman", 1156
-"p3nt4", "PowerShdll", 1154
-"reactivemarbles", "DynamicData", 1153
-"dotnetcore", "EasyCaching", 1152
-"obfuscar", "obfuscar", 1144
-"cedrozor", "myrtille", 1143
-"microsoft", "Trill", 1142
-"keijiro", "Kino", 1141
-"lampo1024", "DncZeus", 1138
-"sonicether", "SEGI", 1137
-"ThePBone", "GalaxyBudsClient", 1137
-"OmniSharp", "omnisharp-roslyn", 1135
-"yingDev", "WGestures", 1135
-"GlitchEnzo", "NuGetForUnity", 1133
-"itext", "itextsharp", 1132
-"webprofusion", "certify", 1131
-"helix-toolkit", "helix-toolkit", 1130
-"digimezzo", "dopamine-windows", 1128
-"Jonno12345", "TileIconifier", 1127
-"neil3d", "excel2json", 1125
-"ArduPilot", "MissionPlanner", 1125
-"cyanfish", "naps2", 1124
-"gkngkc", "UnityStandaloneFileBrowser", 1121
-"Baseflow", "LottieXamarin", 1120
-"OPCFoundation", "UA-.NETStandard", 1120
-"Unity-Technologies", "Graphics", 1120
-"TeamSirenix", "odin-serializer", 1116
-"AnyListen", "YaVipCore", 1114
-"Unity-Technologies", "Unity.Mathematics", 1114
-"loklak", "loklak_dotnet_api", 1113
-"toddams", "RazorLight", 1112
-"lachesis", "scallion", 1111
-"rasta-mouse", "Watson", 1110
-"chocolatey", "ChocolateyGUI", 1108
-"Orbmu2k", "nvidiaProfileInspector", 1107
-"Invoke-IR", "PowerForensics", 1100
-"dotnetcore", "HttpReports", 1099
-"dotnet", "roslyn-analyzers", 1094
-"DynamoDS", "Dynamo", 1094
-"Unity-Technologies", "com.unity.multiplayer.mlapi", 1093
-"telerik", "UI-For-UWP", 1093
-"Unity-Technologies", "InputSystem", 1091
-"VerbalExpressions", "CSharpVerbalExpressions", 1088
-"nilaoda", "The-New-M3U8-Downloader", 1087
-"robertcupisz", "LightShafts", 1085
-"jasonhua95", "awesome-dotnet-core", 1083
-"ProxyKit", "ProxyKit", 1081
-"SebLague", "Path-Creator", 1080
-"harleyQu1nn", "AggressorScripts", 1080
-"microsoft", "coyote", 1078
-"oskardudycz", "EventSourcing.NetCore", 1078
-"jwallet", "spy-spotify", 1077
-"NRules", "NRules", 1076
-"unosquare", "embedio", 1076
-"jsuarezruiz", "awesome-xamarin-forms", 1075
-"unity3d-jp", "unitychan-crs", 1072
-"davideicardi", "DynamicExpresso", 1072
-"blowdart", "AspNetAuthorizationWorkshop", 1070
-"stripe", "stripe-dotnet", 1069
-"essensoft", "paylink", 1068
-"dotnet", "format", 1067
-"gradientspace", "geometry3Sharp", 1067
-"prometheus-net", "prometheus-net", 1066
-"SnpM", "LockstepFramework", 1066
-"SebLague", "Digital-Logic-Sim", 1062
-"code-cracker", "code-cracker", 1060
-"cloudscribe", "cloudscribe", 1059
-"Coldairarrow", "Colder.Admin.AntdVue", 1057
-"qmk", "qmk_toolbox", 1056
-"dwmkerr", "sharpshell", 1054
-"microsoft", "Xaml-Controls-Gallery", 1049
-"Unity-Technologies", "AutoLOD", 1046
-"vrm-c", "UniVRM", 1046
-"VeriorPies", "ParrelSync", 1045
-"Revolutionary-Games", "Thrive", 1044
-"dotnet", "templating", 1044
-"Interkarma", "daggerfall-unity", 1043
-"xebecnan", "UniLua", 1043
-"KirillOsenkov", "MSBuildStructuredLog", 1041
-"StyleCop", "StyleCop", 1040
-"Unity-Technologies", "ShaderGraph", 1038
-"Depressurizer", "Depressurizer", 1038
-"microsoft", "RulesEngine", 1037
-"servicetitan", "Stl.Fusion", 1033
-"Mpdreamz", "shellprogressbar", 1028
-"lidgren", "lidgren-network-gen3", 1026
-"DavidArayan", "ezy-slice", 1026
-"Readarr", "Readarr", 1024
-"natemcmaster", "LettuceEncrypt", 1024
-"PrismLibrary", "Prism-Samples-Wpf", 1023
-"lbugnion", "mvvmlight", 1023
-"sourcechord", "FluentWPF", 1022
-"keijiro", "KvantSpray", 1021
-"rotorgames", "Rg.Plugins.Popup", 1020
-"KhronosGroup", "UnityGLTF", 1019
-"mganss", "HtmlSanitizer", 1018
-"Terminals-Origin", "Terminals", 1017
-"Unity-Technologies", "VisualEffectGraph-Samples", 1017
-"prajjwaldimri", "GithubXamarin", 1016
-"microsoft", "Cognitive-Samples-IntelligentKiosk", 1014
-"microsoft", "VSSDK-Extensibility-Samples", 1011
-"thefuntastic", "Unity3d-Finite-State-Machine", 1011
-"tomakita", "Colorful.Console", 1011
-"fholm", "unityassets", 1010
-"microsoft", "playwright-dotnet", 1009
-"simpleinjector", "SimpleInjector", 1007
-"ricardojmendez", "UnitySteer", 1006
-"zhaopeiym", "quartzui", 1005
-"Tichau", "FileConverter", 1005
-"TestStack", "White", 1004
-"alastairtree", "LazyCache", 1003
+"microsoft","PowerToys", 57582
+"shadowsocks","shadowsocks-windows", 52624
+"PowerShell","PowerShell", 27894
+"dotnet","aspnetcore", 25192
+"CodeHubApp","CodeHub", 23329
+"2dust","v2rayN", 21587
+"Wox-launcher","Wox", 20493
+"dnSpy","dnSpy", 18634
+"dotnet-architecture","eShopOnContainers", 18232
+"ShareX","ShareX", 16690
+"mxgmn","WaveFunctionCollapse", 16662
+"NickeManarin","ScreenToGif", 14981
+"thangchung","awesome-dotnet-core", 14884
+"dotnet","roslyn", 14697
+"DapperLib","Dapper", 13946
+"icsharpcode","ILSpy", 13104
+"AvaloniaUI","Avalonia", 11675
+"files-community","Files", 11561
+"Unity-Technologies","ml-agents", 11411
+"jellyfin","jellyfin", 11319
+"MaterialDesignInXAML","MaterialDesignInXamlToolkit", 11050
+"dotnet","maui", 10751
+"huiyadanli","RevokeMsgPatcher", 10640
+"dotnet","efcore", 10415
+"aspnetboilerplate","aspnetboilerplate", 9716
+"dotnet","AspNetCore.Docs", 9508
+"OpenRA","OpenRA", 9490
+"App-vNext","Polly", 9444
+"lionsoul2014","ip2region", 9435
+"mono","mono", 9399
+"Ryujinx","Ryujinx", 9324
+"QL-Win","QuickLook", 9277
+"netchx","netch", 9164
+"JamesNK","Newtonsoft.Json", 8693
+"SignalR","SignalR", 8397
+"AutoMapper","AutoMapper", 8157
+"IdentityServer","IdentityServer4", 8120
+"cefsharp","CefSharp", 8113
+"bitwarden","server", 8037
+"Unity-Technologies","UnityCsReference", 8020
+"felixse","FluentTerminal", 7977
+"restsharp","RestSharp", 7950
+"MahApps","MahApps.Metro", 7810
+"dotnet","orleans", 7708
+"MonoGame","MonoGame", 7634
+"chocolatey","choco", 7589
+"dotnet","machinelearning", 7585
+"ppy","osu", 7541
+"dotnet","csharplang", 7287
+"ardalis","CleanArchitecture", 7277
+"NancyFx","Nancy", 7140
+"JeffreySu","WeiXinMPSDK", 6897
+"HangfireIO","Hangfire", 6836
+"JustArchiNET","ArchiSteamFarm", 6810
+"dotnet","BenchmarkDotNet", 6708
+"jbogard","MediatR", 6701
+"microsoft","ailab", 6651
+"dotnet","runtime", 6614
+"Sonarr","Sonarr", 6505
+"FluentValidation","FluentValidation", 6465
+"abpframework","abp", 6452
+"nopSolutions","nopCommerce", 6439
+"reactiveui","ReactiveUI", 6407
+"ThreeMammals","Ocelot", 6374
+"duplicati","duplicati", 6327
+"Perfare","AssetStudio", 6304
+"dotnet-architecture","eShopOnWeb", 6299
+"MathewSachin","Captura", 6245
+"xupefei","Locale-Emulator", 6194
+"dvf","blockchain", 6145
+"Jackett","Jackett", 6132
+"Humanizr","Humanizer", 6093
+"jasontaylordev","CleanArchitecture", 6037
+"winsw","winsw", 5939
+"carlospolop","PEASS-ng", 5912
+"mbdavid","LiteDB", 5880
+"ElectronNET","Electron.NET", 5836
+"dodyg","practical-aspnetcore", 5754
+"gitextensions","gitextensions", 5749
+"aspnet","Mvc", 5732
+"kgrzybek","modular-monolith-with-ddd", 5579
+"mRemoteNG","mRemoteNG", 5519
+"TGSAN","CMWTAT_Digital_Edition", 5515
+"migueldeicaza","gui.cs", 5494
+"lambci","docker-lambda", 5490
+"microsoft","VFSForGit", 5485
+"xamarin","Xamarin.Forms", 5366
+"Radarr","Radarr", 5314
+"nilaoda","N_m3u8DL-CLI", 5290
+"QuantConnect","Lean", 5263
+"de4dot","de4dot", 5252
+"neuecc","UniRx", 5236
+"dotnet","wpf", 5234
+"OrchardCMS","OrchardCore", 5231
+"reactiveui","refit", 5188
+"sschmid","Entitas-CSharp", 5166
+"NLog","NLog", 5128
+"unoplatform","uno", 5045
+"dotnet","reactive", 5033
+"dotnetcore","CAP", 4949
+"Live-Charts","Live-Charts", 4931
+"ServiceStack","ServiceStack", 4927
+"SixLabors","ImageSharp", 4891
+"EduardoPires","EquinoxProject", 4888
+"graphql-dotnet","graphql-dotnet", 4858
+"JasonStein","Notepads", 4845
+"StackExchange","StackExchange.Redis", 4843
+"HMBSbige","ShadowsocksR-Windows", 4824
+"serilog","serilog", 4696
+"bchavez","Bogus", 4680
+"egametang","ET", 4639
+"PrismLibrary","Prism", 4636
+"microsoft","FASTER", 4618
+"microsoft","MixedRealityToolkit-Unity", 4609
+"hbons","SparkleShare", 4596
+"quartznet","quartznet", 4591
+"rocksdanister","lively", 4564
+"dotnet","msbuild", 4548
+"quasar","Quasar", 4546
+"jasontaylordev","NorthwindTraders", 4499
+"RicoSuter","NSwag", 4480
+"shadowsocksr-backup","shadowsocksr-csharp", 4469
+"aalhour","C-Sharp-Algorithms", 4437
+"HearthSim","Hearthstone-Deck-Tracker", 4411
+"CommunityToolkit","WindowsCommunityToolkit", 4347
+"Redth","PushSharp", 4321
+"File-New-Project","EarTrumpet", 4267
+"StockSharp","StockSharp", 4254
+"EventStore","EventStore", 4247
+"sta","websocket-sharp", 4244
+"jstedfast","MailKit", 4198
+"moq","moq4", 4186
+"win-acme","win-acme", 4170
+"studyzy","imewlconverter", 4159
+"pojala","electrino", 4138
+"itinance","react-native-fs", 4121
+"accord-net","framework", 4110
+"opserver","Opserver", 4092
+"Unity-Technologies","EntityComponentSystemSamples", 4075
+"randyrants","sharpkeys", 4053
+"Unity-Technologies","FPSSample", 4043
+"thangchung","clean-code-dotnet", 4034
+"microsoft","microsoft-ui-xaml", 4028
+"domaindrivendev","Swashbuckle.AspNetCore", 3993
+"Jimmey-Jiang","Common.Utility", 3987
+"dotnet-state-machine","stateless", 3920
+"akkadotnet","akka.net", 3911
+"openhardwaremonitor","openhardwaremonitor", 3884
+"lucasg","Dependencies", 3861
+"UnityTechnologies","open-project-1", 3860
+"xamarin","xamarin-forms-samples", 3857
+"OptiKey","OptiKey", 3850
+"microsoft","ApplicationInspector", 3825
+"AngleSharp","AngleSharp", 3820
+"nissl-lab","npoi", 3817
+"brandonlw","Psychson", 3790
+"dotnetcore","Util", 3772
+"louthy","language-ext", 3745
+"MassTransit","MassTransit", 3726
+"dotnet","tye", 3651
+"microsoft","reverse-proxy", 3596
+"microsoft","VisualStudioUninstaller", 3594
+"autofac","Autofac", 3561
+"MvvmCross","MvvmCross", 3554
+"donet5","SqlSugar", 3546
+"ant-design-blazor","ant-design-blazor", 3509
+"protobuf-net","protobuf-net", 3493
+"Unity-Technologies","PostProcessing", 3477
+"udacity","self-driving-car-sim", 3468
+"JanKallman","EPPlus", 3467
+"neuecc","MessagePack-CSharp", 3458
+"naudio","NAudio", 3439
+"davidfowl","AspNetCoreDiagnosticScenarios", 3413
+"Topshelf","Topshelf", 3403
+"umbraco","Umbraco-CMS", 3379
+"spectreconsole","spectre.console", 3372
+"ExtendRealityLtd","VRTK", 3367
+"Fody","Fody", 3360
+"simplcommerce","SimplCommerce", 3348
+"JoshClose","CsvHelper", 3323
+"Azure","DotNetty", 3301
+"neo-project","neo", 3294
+"shimat","opencvsharp", 3293
+"danielgerlag","workflow-core", 3279
+"JosefNemec","Playnite", 3255
+"stride3d","stride", 3254
+"Codeusa","Borderless-Gaming", 3248
+"anjoy8","Blog.Core", 3247
+"SteamTools-Team","SteamTools", 3196
+"stnkl","EverythingToolbar", 3162
+"VsVim","VsVim", 3161
+"dotnetcore","WTM", 3137
+"mob-sakai","UIEffect", 3136
+"intel","acat", 3136
+"dotnet","winforms", 3133
+"aspnet","JavaScriptServices", 3117
+"elastic","elasticsearch-net", 3107
+"marian42","wavefunctioncollapse", 3101
+"SubtitleEdit","subtitleedit", 3093
+"dotnetcore","DotnetSpider", 3088
+"dotnet","standard", 3061
+"fanliang11","surging", 3058
+"TheBerkin","rant3", 3051
+"praeclarum","sqlite-net", 3020
+"migueldeicaza","TensorFlowSharp", 2997
+"canton7","SyncTrayzor", 2991
+"cake-build","cake", 2988
+"yck1509","ConfuserEx", 2981
+"domaindrivendev","Swashbuckle.WebApi", 2979
+"Perfare","Il2CppDumper", 2966
+"commandlineparser","commandline", 2966
+"EllanJiang","GameFramework", 2965
+"kerryjiang","SuperSocket", 2962
+"xunit","xunit", 2958
+"proxysu","ProxySU", 2954
+"HandyOrg","HandyControl", 2950
+"ivanpaulovich","clean-architecture-manga", 2927
+"playgameservices","play-games-plugin-for-unity", 2921
+"d2phap","ImageGlass", 2916
+"dotnetcore","FreeSql", 2887
+"MediaBrowser","Emby", 2882
+"dotnet","corert", 2873
+"ferventdesert","Hawk", 2872
+"ClusterM","hakchi2", 2870
+"Accelerider","BaiduPanDownloadWinform", 2863
+"picoe","Eto", 2849
+"Jays2Kings","DS4Windows", 2841
+"inkle","ink", 2839
+"xceedsoftware","wpftoolkit", 2838
+"OfficeDev","Open-XML-SDK", 2836
+"skoruba","IdentityServer4.Admin", 2817
+"btcpayserver","btcpayserver", 2813
+"KeenSoftwareHouse","SpaceEngineers", 2812
+"siteserver","cms", 2795
+"ExcelDataReader","ExcelDataReader", 2793
+"bitwarden","mobile", 2783
+"projectkudu","kudu", 2782
+"lostindark","DriverStoreExplorer", 2777
+"ravendb","ravendb", 2769
+"dotnet","docfx", 2725
+"Dotnet-Boxed","Templates", 2721
+"icsharpcode","SharpZipLib", 2711
+"microsoft","Git-Credential-Manager-for-Windows", 2708
+"microsoft","perfview", 2703
+"TheAlgorithms","C-Sharp", 2701
+"googlevr","gvr-unity-sdk", 2692
+"BluePointLilac","ContextMenuManager", 2684
+"morelinq","MoreLINQ", 2683
+"Azure","azure-powershell", 2682
+"grpc","grpc-dotnet", 2673
+"mono","monodevelop", 2660
+"pardeike","Harmony", 2660
+"elvirbrk","NoteHighlight2016", 2658
+"StephenCleary","AsyncEx", 2654
+"tmenier","Flurl", 2652
+"Tyrrrz","DiscordChatExporter", 2649
+"pythonnet","pythonnet", 2647
+"zalo","MathUtilities", 2643
+"nefarius","ScpToolkit", 2637
+"chromelyapps","Chromely", 2636
+"mongodb","mongo-csharp-driver", 2633
+"aspnet","KestrelHttpServer", 2629
+"k8gege","Ladon", 2625
+"ClosedXML","ClosedXML", 2578
+"mathnet","mathnet-numerics", 2565
+"Ombi-app","Ombi", 2565
+"ChilliCream","hotchocolate", 2554
+"vis2k","Mirror", 2553
+"topameng","tolua", 2549
+"fluentmigrator","fluentmigrator", 2549
+"xoofx","markdig", 2536
+"sshnet","SSH.NET", 2532
+"SeriaWei","ZKEACMS", 2530
+"codebude","QRCoder", 2529
+"cobbr","Covenant", 2498
+"NoelFB","Celeste", 2496
+"microsoft","referencesource", 2492
+"ninject","Ninject", 2479
+"keijiro","Skinner", 2474
+"Azure","azure-sdk-for-net", 2473
+"firstfloorsoftware","mui", 2453
+"dockersamples","example-voting-app", 2439
+"JimBobSquarePants","ImageProcessor", 2431
+"gibbed","SteamAchievementManager", 2426
+"Armin2208","Windows-Auto-Night-Mode", 2419
+"t1m0thyj","WinDynamicDesktop", 2408
+"aspnet","SignalR", 2402
+"OpenLiveWriter","OpenLiveWriter", 2389
+"Xabaril","AspNetCore.Diagnostics.HealthChecks", 2384
+"dbrizov","NaughtyAttributes", 2384
+"libgit2","libgit2sharp", 2381
+"microsoft","WinAppDriver", 2368
+"MiniProfiler","dotnet", 2367
+"AutoFixture","AutoFixture", 2363
+"greenshot","greenshot", 2359
+"microsoft","PTVS", 2357
+"oxyplot","oxyplot", 2343
+"Cysharp","MagicOnion", 2337
+"Caliburn-Micro","Caliburn.Micro", 2334
+"XINCGer","Unity3DTraining", 2333
+"scriptcs","scriptcs", 2314
+"Glimpse","Glimpse", 2309
+"npgsql","npgsql", 2306
+"IgnaceMaes","MaterialSkin", 2303
+"sebastienros","jint", 2293
+"OneGet","oneget", 2287
+"keenanwoodall","Deform", 2286
+"QianMo","Unity-Design-Pattern", 2281
+"dotnet-presentations","blazor-workshop", 2280
+"zeromq","netmq", 2267
+"mono","SkiaSharp", 2261
+"smartstore","SmartStoreNET", 2260
+"fluentassertions","fluentassertions", 2257
+"bridgedotnet","Bridge", 2248
+"github-for-unity","Unity", 2243
+"Ourpalm","ILRuntime", 2241
+"Kinnara","ModernWpf", 2237
+"chkr1011","MQTTnet", 2229
+"wave-harmonic","crest", 2227
+"fluentscheduler","FluentScheduler", 2227
+"Franiac","TwitchLeecher", 2218
+"ldqk","Masuit.Tools", 2200
+"ServiceStack","ServiceStack.Redis", 2185
+"neuecc","ZeroFormatter", 2176
+"Tencent","behaviac", 2175
+"dotnet","command-line-api", 2173
+"dotnet","extensions", 2172
+"dotnet","try", 2166
+"EasyNetQ","EasyNetQ", 2165
+"Unity-Technologies","NavMeshComponents", 2159
+"CosmosOS","Cosmos", 2139
+"opentk","opentk", 2137
+"coverlet-coverage","coverlet", 2136
+"ddevault","TrueCraft", 2136
+"LazoCoder","Windows-Hacks", 2132
+"liangxiegame","QFramework", 2123
+"rafaelfgx","Architecture", 2121
+"mono","CppSharp", 2120
+"reactiveui","Akavache", 2120
+"Cysharp","UniTask", 2118
+"xamarin","monodroid-samples", 2116
+"p-org","P", 2114
+"reactjs","React.NET", 2111
+"JosefPihrt","Roslynator", 2099
+"github","VisualStudio", 2098
+"octokit","octokit.net", 2097
+"neuecc","Utf8Json", 2095
+"linq2db","linq2db", 2091
+"wesdoyle","design-patterns-explained-with-food", 2090
+"PowerShell","PSReadLine", 2085
+"microsoft","AttackSurfaceAnalyzer", 2075
+"kevin-montrose","Jil", 2068
+"cq-panda","Vue.NetCore", 2063
+"microsoft","aspnet-api-versioning", 2058
+"exceptionless","Exceptionless", 2055
+"nunit","nunit", 2053
+"RevenantX","LiteNetLib", 2047
+"IdentityServer","IdentityServer3", 2040
+"discord-net","Discord.Net", 2040
+"jbevain","cecil", 2036
+"dotnetcore","osharp", 2024
+"Lidarr","Lidarr", 2022
+"xamarin","xamarin-macios", 2022
+"microsoft","WindowsTemplateStudio", 2015
+"GitTools","GitVersion", 2013
+"PomeloFoundation","Pomelo.EntityFrameworkCore.MySql", 1998
+"confluentinc","confluent-kafka-dotnet", 1997
+"borisdj","EFCore.BulkExtensions", 1995
+"SciSharp","TensorFlow.NET", 1994
+"MichaCo","CacheManager", 1993
+"Impostor","Impostor", 1991
+"openiddict","openiddict-core", 1991
+"Antaris","RazorEngine", 1983
+"NetDimension","NanUI", 1980
+"microsoft","GraphEngine", 1976
+"hardkoded","puppeteer-sharp", 1968
+"sqlkata","querybuilder", 1964
+"xamarin","XamarinComponents", 1963
+"Megabit","Blazorise", 1963
+"x360ce","x360ce", 1961
+"GavinYellow","SharpSCADA", 1947
+"aspnet","Identity", 1939
+"nodatime","nodatime", 1936
+"stefanprodan","AspNetCoreRateLimit", 1936
+"benaadams","Ben.Demystifier", 1933
+"zzzprojects","html-agility-pack", 1920
+"AppMetrics","AppMetrics", 1916
+"RolandPheasant","TailBlazer", 1912
+"sjdirect","abot", 1911
+"Code52","carnac", 1908
+"fairygui","FairyGUI-unity", 1907
+"googlevr","tilt-brush", 1905
+"dlemstra","Magick.NET", 1904
+"DotNetAnalyzers","StyleCopAnalyzers", 1903
+"UnityTech","UIWidgets", 1877
+"jarjin","LuaFramework_UGUI", 1874
+"NuGetPackageExplorer","NuGetPackageExplorer", 1873
+"Siccity","xNode", 1868
+"nhibernate","nhibernate-core", 1866
+"peachpiecompiler","peachpie", 1863
+"eventflow","EventFlow", 1860
+"gregoryyoung","m-r", 1857
+"Cenmrev","V2RayW", 1854
+"actions","runner", 1851
+"SteamRE","SteamKit", 1851
+"bitbeans","SimpleDnsCrypt", 1845
+"pnp","PnP", 1843
+"jamesmh","coravel", 1830
+"FreyaHolmer","ShaderForge", 1829
+"CollaboratingPlatypus","PetaPoco", 1826
+"wolfgarbe","SymSpell", 1822
+"jynew","jynew", 1822
+"Fody","Costura", 1816
+"cDima","Aerial", 1809
+"tModLoader","tModLoader", 1809
+"vietnam-devs","coolstore-microservices", 1808
+"Tyrrrz","YoutubeDownloader", 1806
+"pwntester","ysoserial.net", 1803
+"TelegramBots","Telegram.Bot", 1801
+"statianzo","Fleck", 1800
+"sprache","Sprache", 1799
+"SonyWWS","ATF", 1798
+"EWSoftware","SHFB", 1797
+"hirschmann","nbfc", 1796
+"fluentribbon","Fluent.Ribbon", 1794
+"hanmin0822","MisakaTranslator", 1793
+"robinrodricks","FluentFTP", 1790
+"icsharpcode","SharpDevelop", 1782
+"Particular","NServiceBus", 1780
+"FransBouma","Massive", 1773
+"Facepunch","Facepunch.Steamworks", 1772
+"microsoft","nodejstools", 1769
+"ravibpatel","AutoUpdater.NET", 1767
+"SpecFlowOSS","SpecFlow", 1756
+"GhostPack","Seatbelt", 1753
+"Unity-Technologies","arfoundation-samples", 1753
+"tangxuehua","enode", 1749
+"filipw","dotnet-script", 1742
+"rlabrecque","Steamworks.NET", 1733
+"SteveSanderson","Blazor", 1733
+"micjahn","ZXing.Net", 1729
+"grandnode","grandnode", 1728
+"zzzprojects","EntityFramework-Plus", 1728
+"loic-sharma","BaGet", 1724
+"lukencode","FluentEmail", 1722
+"khellang","Scrutor", 1720
+"dotnetcore","NPOI", 1718
+"kenvix","USBCopyer", 1715
+"git-tfs","git-tfs", 1703
+"mafaca","UtinyRipper", 1701
+"MapsterMapper","Mapster", 1694
+"NewEraCracker","LOIC", 1692
+"filoe","cscore", 1690
+"keijiro","KinoGlitch", 1689
+"natemcmaster","CommandLineUtils", 1689
+"DotNetOpenAuth","DotNetOpenAuth", 1687
+"Jessecar96","SteamDesktopAuthenticator", 1687
+"Seneral","Node_Editor_Framework", 1687
+"blazorhero","CleanArchitecture", 1679
+"Codeusa","SteamCleaner", 1679
+"ModernFlyouts-Community","ModernFlyouts", 1678
+"sq","JSIL", 1677
+"dotnet","samples", 1675
+"playdeadgames","temporal", 1674
+"ButchersBoy","Dragablz", 1674
+"UnityCommunity","UnityLibrary", 1671
+"Tyrrrz","YoutubeExplode", 1668
+"dotnet","spark", 1668
+"jakubgarfield","Bonobo-Git-Server", 1663
+"aws","aws-sdk-net", 1662
+"mob-sakai","ParticleEffectForUGUI", 1661
+"2881099","csredis", 1659
+"builtbybel","privatezilla", 1656
+"sidristij","dotnetbook", 1655
+"Unity-Technologies","BoatAttack", 1652
+"koush","UniversalAdbDriver", 1645
+"mellinoe","veldrid", 1644
+"rebus-org","Rebus", 1640
+"Pryaxis","TShock", 1628
+"charlesw","tesseract", 1628
+"odedshimon","BruteShark", 1628
+"apache","lucenenet", 1627
+"jwt-dotnet","jwt", 1621
+"ElevenPaths","FOCA", 1615
+"nhibernate","fluent-nhibernate", 1606
+"xamarin","xamarin-android", 1601
+"antonpup","Aurora", 1598
+"UnigramDev","Unigram", 1595
+"Davidobot","BetterJoy", 1594
+"kwsch","PKHeX", 1593
+"microcharts-dotnet","Microcharts", 1587
+"MetacoSA","NBitcoin", 1586
+"nsubstitute","NSubstitute", 1585
+"Azure","azure-functions-host", 1584
+"shouldly","shouldly", 1581
+"kgrzybek","sample-dotnet-core-cqrs-api", 1567
+"FastReports","FastReport", 1567
+"kwwwvagaa","NetWinformControl", 1561
+"punker76","gong-wpf-dragdrop", 1557
+"JasperFx","marten", 1542
+"Syomus","ProceduralToolkit", 1542
+"i-saint","Unity5Effects", 1536
+"dotnetcore","WebApiClient", 1534
+"GhostPack","Rubeus", 1532
+"leiurayer","downkyi", 1530
+"thepirat000","Audit.NET", 1529
+"DbUp","DbUp", 1529
+"scriban","scriban", 1528
+"Klocman","Bulk-Crap-Uninstaller", 1520
+"Unity-Technologies","AssetBundles-Browser", 1520
+"SlightlyMad","VolumetricLights", 1517
+"nxrighthere","UnrealCLR", 1516
+"Demigiant","dotween", 1515
+"praeclarum","Ooui", 1513
+"wixtoolset","wix3", 1510
+"Squidex","squidex", 1509
+"JabbR","JabbR", 1508
+"ServiceStack","ServiceStack.OrmLite", 1507
+"adamhathcock","sharpcompress", 1505
+"NEventStore","NEventStore", 1503
+"aaubry","YamlDotNet", 1502
+"tmsmith","Dapper-Extensions", 1501
+"dotnet","Docker.DotNet", 1499
+"jshackles","idle_master", 1498
+"jimradford","superputty", 1493
+"dotnet","wcf", 1492
+"rabbitmq","rabbitmq-dotnet-client", 1490
+"nickgravelyn","UnityToolbag", 1483
+"xamarin","ios-samples", 1480
+"XLabs","Xamarin-Forms-Labs", 1475
+"dotnet","corefxlab", 1473
+"ONLYOFFICE","CommunityServer", 1471
+"sharpdx","SharpDX", 1468
+"Xeroday","Spotify-Ad-Blocker", 1463
+"xasset","xasset", 1459
+"abishekaditya","DesignPatterns", 1457
+"cairoshell","cairoshell", 1457
+"ashmind","SharpLab", 1454
+"liukuo362573","YiShaAdmin", 1451
+"xamarin","mobile-samples", 1445
+"bombomby","optick", 1445
+"Tayx94","graphy", 1443
+"LorenzCK","OnTopReplica", 1443
+"rnwood","smtp4dev", 1439
+"Elringus","SpriteGlow", 1439
+"TouchScript","TouchScript", 1437
+"lgsvl","simulator", 1437
+"Garderoben","MudBlazor", 1431
+"codecadwallader","codemaid", 1425
+"dotnet","pinvoke", 1425
+"ArcadeRenegade","SidebarDiagnostics", 1424
+"gothinkster","aspnetcore-realworld-example-app", 1422
+"BornToBeRoot","NETworkManager", 1421
+"FoundatioFx","Foundatio", 1419
+"asc-lab","dotnetcore-microservices-poc", 1414
+"geffzhang","NanoFabric", 1414
+"ivaylokenov","MyTested.AspNetCore.Mvc", 1411
+"Windows-XAML","Template10", 1410
+"danielpalme","ReportGenerator", 1410
+"snoopwpf","snoopwpf", 1410
+"dotnet","iot", 1404
+"Auburn","FastNoiseLite", 1403
+"aelij","RoslynPad", 1403
+"xamarin","Essentials", 1403
+"Fody","PropertyChanged", 1401
+"keijiro","Klak", 1399
+"NLua","NLua", 1397
+"Mochengvia","PanuonUI.Silver", 1394
+"yimengfan","BDFramework.Core", 1391
+"statiqdev","Statiq.Web", 1389
+"Cn33liz","p0wnedShell", 1388
+"BeardedManStudios","ForgeNetworkingRemastered", 1387
+"Accelerider","Accelerider.Windows", 1385
+"samhocevar","wincompose", 1384
+"dotnetcore","AspectCore-Framework", 1384
+"rubberduck-vba","Rubberduck", 1383
+"dafny-lang","dafny", 1382
+"gerardog","gsudo", 1381
+"dockpanelsuite","dockpanelsuite", 1380
+"YarnSpinnerTool","YarnSpinner", 1380
+"NewLifeX","X", 1378
+"dotnet","infer", 1374
+"outflanknl","EvilClippy", 1373
+"lucent-sea","Remotely", 1371
+"shack2","SNETCracker", 1370
+"tjackenpacken","taskbar-groups", 1369
+"monitor1394","unity-ugui-XCharts", 1368
+"enkodellc","blazorboilerplate", 1366
+"google-ar","arcore-unity-sdk", 1364
+"paolosalvatori","ServiceBusExplorer", 1362
+"FNA-XNA","FNA", 1357
+"PiranhaCMS","piranha.core", 1352
+"Unity-Technologies","VolumetricLighting", 1348
+"setchi","FancyScrollView", 1347
+"castleproject","Core", 1346
+"sturdyspoon","unity-movement-ai", 1342
+"xceedsoftware","DocX", 1341
+"dotnetcore","Magicodes.IE", 1341
+"QianMo","X-PostProcessing-Library", 1339
+"xamarin","XamarinCommunityToolkit", 1337
+"googleprojectzero","sandbox-attacksurface-analysis-tools", 1334
+"markrendle","Simple.Data", 1332
+"SkyAPM","SkyAPM-dotnet", 1332
+"aspnet-contrib","AspNet.Security.OAuth.Providers", 1329
+"castleproject","Windsor", 1328
+"NuGet","NuGetGallery", 1328
+"luberda-molinet","FFImageLoading", 1328
+"Tencent","InjectFix", 1328
+"Code52","DownmarkerWPF", 1327
+"KSP-CKAN","CKAN", 1326
+"Belphemur","SoundSwitch", 1323
+"zzzprojects","EntityFramework.Extended", 1314
+"Monnoroch","ColorHighlighter", 1309
+"BepInEx","BepInEx", 1305
+"RaduMC","AssetStudio", 1303
+"mikependon","RepoDB", 1298
+"scientistproject","Scientist.net", 1298
+"Nethereum","Nethereum", 1297
+"0xd4d","dnlib", 1296
+"winauth","winauth", 1296
+"emgucv","emgucv", 1290
+"zkSNACKs","WalletWasabi", 1289
+"open-telemetry","opentelemetry-dotnet", 1289
+"icedland","iced", 1286
+"gigya","microdot", 1286
+"mr-kelly","KSFramework", 1285
+"shuxinqin","Chloe", 1283
+"Assistant","ModAssistant", 1282
+"jstedfast","MimeKit", 1281
+"cobbr","SharpSploit", 1279
+"ScutGame","Scut", 1278
+"clojure","clojure-clr", 1273
+"cube0x0","CVE-2021-1675", 1260
+"microsoftarchive","cqrs-journey", 1259
+"prime31","Nez", 1259
+"Tyrrrz","LightBulb", 1258
+"leinlin","Miku-LuaProfiler", 1257
+"asadsahi","AspNetCoreSpa", 1256
+"mono","xwt", 1255
+"AdamsLair","duality", 1255
+"dotnet","ef6", 1251
+"nuke-build","nuke", 1247
+"MahApps","MahApps.Metro.IconPacks", 1244
+"dotnet","interactive", 1242
+"amaneureka","AtomOS", 1241
+"justcoding121","titanium-web-proxy", 1235
+"944095635","DMSkin", 1234
+"GaoKaiHaHa","MyUnityFrameWork", 1226
+"PowerShell","PSScriptAnalyzer", 1222
+"NeutroniumCore","Neutronium", 1222
+"voat","voat", 1219
+"zengzhan","qqzeng-ip", 1215
+"qmlnet","qmlnet", 1213
+"hallatore","Netling", 1212
+"icsharpcode","AvalonEdit", 1211
+"aspnet","Security", 1210
+"TylerBrinkley","Enums.NET", 1209
+"TASVideos","BizHawk", 1209
+"iamoldli","NetModular", 1208
+"telerik","JustDecompileEngine", 1208
+"SonyWWS","LevelEditor", 1208
+"Azure","iotedge", 1207
+"1y0n","AV_Evasion_Tool", 1207
+"stella3d","job-system-cookbook", 1205
+"ardalis","ApiEndpoints", 1204
+"AsynkronIT","protoactor-dotnet", 1203
+"stefanprodan","WebApiThrottle", 1203
+"microsoft","azure-pipelines-agent", 1200
+"vkhorikov","CSharpFunctionalExtensions", 1198
+"qiankanglai","LoopScrollRect", 1198
+"Unity-Technologies","multiplayer", 1196
+"Unity-Technologies","UniversalRenderingExamples", 1196
+"tjoudeh","AngularJSAuthentication", 1194
+"jaquadro","NBTExplorer", 1191
+"zkavtaskin","Domain-Driven-Design-Example", 1188
+"VitalElement","AvalonStudio", 1187
+"ServiceStack","ServiceStack.Text", 1187
+"ComponentFactory","Krypton", 1186
+"MichalStrehovsky","zerosharp", 1184
+"Sergio0694","ComputeSharp", 1182
+"Tyrrrz","CliWrap", 1178
+"SciSharp","BotSharp", 1178
+"dotnet","sdk", 1176
+"matterpreter","DefenderCheck", 1174
+"phw198","OutlookGoogleCalendarSync", 1174
+"sailro","Reflexil", 1173
+"dotnet","codeformatter", 1172
+"Pixeval","Pixeval", 1168
+"ebekker","ACMESharp", 1165
+"FakeItEasy","FakeItEasy", 1165
+"Jessecar96","SteamBot", 1164
+"JavScraper","Emby.Plugins.JavScraper", 1163
+"SubnauticaNitrox","Nitrox", 1163
+"microsoft","Microsoft.IO.RecyclableMemoryStream", 1156
+"keijiro","Voxelman", 1156
+"p3nt4","PowerShdll", 1154
+"reactivemarbles","DynamicData", 1153
+"dotnetcore","EasyCaching", 1152
+"obfuscar","obfuscar", 1144
+"cedrozor","myrtille", 1143
+"microsoft","Trill", 1142
+"keijiro","Kino", 1141
+"lampo1024","DncZeus", 1138
+"sonicether","SEGI", 1137
+"ThePBone","GalaxyBudsClient", 1137
+"OmniSharp","omnisharp-roslyn", 1135
+"yingDev","WGestures", 1135
+"GlitchEnzo","NuGetForUnity", 1133
+"itext","itextsharp", 1132
+"webprofusion","certify", 1131
+"helix-toolkit","helix-toolkit", 1130
+"digimezzo","dopamine-windows", 1128
+"Jonno12345","TileIconifier", 1127
+"neil3d","excel2json", 1125
+"ArduPilot","MissionPlanner", 1125
+"cyanfish","naps2", 1124
+"gkngkc","UnityStandaloneFileBrowser", 1121
+"Baseflow","LottieXamarin", 1120
+"OPCFoundation","UA-.NETStandard", 1120
+"Unity-Technologies","Graphics", 1120
+"TeamSirenix","odin-serializer", 1116
+"AnyListen","YaVipCore", 1114
+"Unity-Technologies","Unity.Mathematics", 1114
+"loklak","loklak_dotnet_api", 1113
+"toddams","RazorLight", 1112
+"lachesis","scallion", 1111
+"rasta-mouse","Watson", 1110
+"chocolatey","ChocolateyGUI", 1108
+"Orbmu2k","nvidiaProfileInspector", 1107
+"Invoke-IR","PowerForensics", 1100
+"dotnetcore","HttpReports", 1099
+"dotnet","roslyn-analyzers", 1094
+"DynamoDS","Dynamo", 1094
+"Unity-Technologies","com.unity.multiplayer.mlapi", 1093
+"telerik","UI-For-UWP", 1093
+"Unity-Technologies","InputSystem", 1091
+"VerbalExpressions","CSharpVerbalExpressions", 1088
+"nilaoda","The-New-M3U8-Downloader", 1087
+"robertcupisz","LightShafts", 1085
+"jasonhua95","awesome-dotnet-core", 1083
+"ProxyKit","ProxyKit", 1081
+"SebLague","Path-Creator", 1080
+"harleyQu1nn","AggressorScripts", 1080
+"microsoft","coyote", 1078
+"oskardudycz","EventSourcing.NetCore", 1078
+"jwallet","spy-spotify", 1077
+"NRules","NRules", 1076
+"unosquare","embedio", 1076
+"jsuarezruiz","awesome-xamarin-forms", 1075
+"unity3d-jp","unitychan-crs", 1072
+"davideicardi","DynamicExpresso", 1072
+"blowdart","AspNetAuthorizationWorkshop", 1070
+"stripe","stripe-dotnet", 1069
+"essensoft","paylink", 1068
+"dotnet","format", 1067
+"gradientspace","geometry3Sharp", 1067
+"prometheus-net","prometheus-net", 1066
+"SnpM","LockstepFramework", 1066
+"SebLague","Digital-Logic-Sim", 1062
+"code-cracker","code-cracker", 1060
+"cloudscribe","cloudscribe", 1059
+"Coldairarrow","Colder.Admin.AntdVue", 1057
+"qmk","qmk_toolbox", 1056
+"dwmkerr","sharpshell", 1054
+"microsoft","Xaml-Controls-Gallery", 1049
+"Unity-Technologies","AutoLOD", 1046
+"vrm-c","UniVRM", 1046
+"VeriorPies","ParrelSync", 1045
+"Revolutionary-Games","Thrive", 1044
+"dotnet","templating", 1044
+"Interkarma","daggerfall-unity", 1043
+"xebecnan","UniLua", 1043
+"KirillOsenkov","MSBuildStructuredLog", 1041
+"StyleCop","StyleCop", 1040
+"Unity-Technologies","ShaderGraph", 1038
+"Depressurizer","Depressurizer", 1038
+"microsoft","RulesEngine", 1037
+"servicetitan","Stl.Fusion", 1033
+"Mpdreamz","shellprogressbar", 1028
+"lidgren","lidgren-network-gen3", 1026
+"DavidArayan","ezy-slice", 1026
+"Readarr","Readarr", 1024
+"natemcmaster","LettuceEncrypt", 1024
+"PrismLibrary","Prism-Samples-Wpf", 1023
+"lbugnion","mvvmlight", 1023
+"sourcechord","FluentWPF", 1022
+"keijiro","KvantSpray", 1021
+"rotorgames","Rg.Plugins.Popup", 1020
+"KhronosGroup","UnityGLTF", 1019
+"mganss","HtmlSanitizer", 1018
+"Terminals-Origin","Terminals", 1017
+"Unity-Technologies","VisualEffectGraph-Samples", 1017
+"prajjwaldimri","GithubXamarin", 1016
+"microsoft","Cognitive-Samples-IntelligentKiosk", 1014
+"microsoft","VSSDK-Extensibility-Samples", 1011
+"thefuntastic","Unity3d-Finite-State-Machine", 1011
+"tomakita","Colorful.Console", 1011
+"fholm","unityassets", 1010
+"microsoft","playwright-dotnet", 1009
+"simpleinjector","SimpleInjector", 1007
+"ricardojmendez","UnitySteer", 1006
+"zhaopeiym","quartzui", 1005
+"Tichau","FileConverter", 1005
+"TestStack","White", 1004
+"alastairtree","LazyCache", 1003

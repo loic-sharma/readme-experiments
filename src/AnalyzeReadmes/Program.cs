@@ -1,10 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
+using System.Linq;
 using Markdig;
 using Markdig.Extensions.Tables;
 using Markdig.Syntax;
 using Markdig.Syntax.Inlines;
+using ServiceStack.Text;
 
 namespace AnalyzeReadmes
 {
@@ -61,61 +63,114 @@ namespace AnalyzeReadmes
             var readmesPath = args[0];
             var reportsPath = args[1];
 
-            readmesPath = @"D:\Code\readme-experiments\readmes\ClosedXML\ClosedXML";
-            var readmes = Directory.GetFiles(readmesPath, "*.md", SearchOption.AllDirectories);
+            var repositoriesCsv = File.ReadAllText(Path.Combine(readmesPath, "repositories.csv"));
+            var repositories = CsvSerializer.DeserializeFromString<Repo[]>(repositoriesCsv);
 
             var pipeline = new MarkdownPipelineBuilder()
                 .UseAdvancedExtensions()
                 .Build();
 
-            foreach (var readme in readmes)
+            var ctx = AnalysisContext.Create();
+            foreach (var repository in repositories.OrderByDescending(r => r.Stars))
             {
-                var owner = "TODO";
-                var repository = "TODO";
-
-                var markdown = File.ReadAllText(readme);
-                var document = Markdown.Parse(markdown, pipeline);
-
-                var hasCodeFence = false;
-                var hasCSharpCodeFence = false;
-                var hasHtml = false;
-                var hasTable = false;
-
-                var disallowedImageHosts = new HashSet<string>();
-
-                foreach (var node in document.Descendants())
+                var readmePath = Path.Combine(readmesPath, repository.Owner, repository.Repository, "README.md");
+                if (!File.Exists(readmePath))
                 {
-                    if (node is LinkInline linkInline && linkInline.IsImage)
-                    {
-                        var imageHost = new Uri(linkInline.Url).Host;
+                    Console.WriteLine($"MISS {repository}");
+                    continue;
+                }
 
-                        if (!ImageHostsAllowList.Contains(imageHost))
+                var readme = File.ReadAllText(readmePath);
+                var markdown = Markdown.Parse(readme, pipeline);
+
+                Analyze(ctx, repository, markdown);
+            }
+
+            var disallowedHostRecords = ctx
+                .DisallowedHosts
+                .OrderByDescending(host => host.Value.Sum(r => r.Stars))
+                .SelectMany(host => host
+                    .Value
+                    .Select(repository => new DisallowedHostRecord(
+                        host.Key,
+                        repository.Owner,
+                        repository.Repository,
+                        repository.Stars)));
+            var codeFenceRecords = ctx
+                .CodeFences
+                .OrderByDescending(f => f.Repository.Stars)
+                .ThenBy(f => (f.Repository.Owner, f.Repository.Repository))
+                .Select(f => new CodeFenceRecord(
+                    f.Repository.Owner,
+                    f.Repository.Repository,
+                    f.Repository.Stars,
+                    f.Kind));
+            var tableRecords = ctx
+                .Tables
+                .OrderByDescending(r => r.Stars);
+            var htmlRecords = ctx
+                .Htmls
+                .OrderByDescending(r => r.Stars);
+
+            var disallowedHostsPath = Path.Combine(reportsPath, "disallowedImageHosts.csv");
+            var codeFencesPath = Path.Combine(reportsPath, "codeFences.csv");
+            var tablesPath = Path.Combine(reportsPath, "tables.csv");
+            var htmlsPath = Path.Combine(reportsPath, "htmls.csv");
+
+            File.WriteAllText(disallowedHostsPath, CsvSerializer.SerializeToString(disallowedHostRecords));
+            File.WriteAllText(codeFencesPath, CsvSerializer.SerializeToString(codeFenceRecords));
+            File.WriteAllText(tablesPath, CsvSerializer.SerializeToString(tableRecords));
+            File.WriteAllText(htmlsPath, CsvSerializer.SerializeToString(htmlRecords));
+        }
+
+        public static void Analyze(AnalysisContext ctx, Repo repository, MarkdownDocument document)
+        {
+            foreach (var node in document.Descendants())
+            {
+                if (node is LinkInline { IsImage: true} imageLink)
+                {
+                    if (Uri.TryCreate(imageLink.Url, UriKind.Absolute, out var imageUri))
+                    {
+                        if (!ImageHostsAllowList.Contains(imageUri.Host))
                         {
-                            disallowedImageHosts.Add(imageHost);
-                        }
-                    }
-
-                    if (node is HtmlBlock)
-                    {
-                        hasHtml = true;
-                    }
-
-                    if (node is Table)
-                    {
-                        hasTable = true;
-                    }
-
-                    if (node is FencedCodeBlock code)
-                    {
-                        hasCodeFence = true;
-
-                        if (CSharpCodeFences.Contains(code.Info?.Trim()))
-                        {
-                            hasCSharpCodeFence = true;
+                            ctx.TrackDisallowedImageHost(repository, imageUri.Host);
                         }
                     }
                 }
+
+                if (node is Table) ctx.Tables.Add(repository);
+                if (node is HtmlBlock) ctx.Htmls.Add(repository);
+                if (node is FencedCodeBlock code) ctx.CodeFences.Add((code.Info, repository));
             }
+        }
+    }
+
+    record Repo(string Owner, string Repository, int Stars);
+    record DisallowedHostRecord(string Host, string Owner, string Repository, int Stars);
+    record CodeFenceRecord(string Owner, string Repository, int Stars, string CodeFenceKind);
+
+    record AnalysisContext(
+        Dictionary<string, HashSet<Repo>> DisallowedHosts,
+        HashSet<(string Kind, Repo Repository)> CodeFences,
+        HashSet<Repo> Tables,
+        HashSet<Repo> Htmls)
+    {
+        // TODO: Better way??
+        public static AnalysisContext Create() => new(
+            new(StringComparer.OrdinalIgnoreCase),
+            new(),
+            new(),
+            new());
+
+        public void TrackDisallowedImageHost(Repo repository, string host)
+        {
+            if (!DisallowedHosts.TryGetValue(host, out var repositories))
+            {
+                repositories = new HashSet<Repo>();
+                DisallowedHosts.Add(host, repositories);
+            }
+
+            repositories.Add(repository);
         }
     }
 }
