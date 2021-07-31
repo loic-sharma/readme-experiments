@@ -79,7 +79,7 @@ namespace DownloadReadmes
             repositoriesCsv.AppendLine("Owner, Repository, Stars");
             foreach (var repository in repositories.OrderByDescending(r => r.Stars))
             {
-                repositoriesCsv.AppendLine($@"""{repository.Owner}"", ""{repository.Name}"", {repository.Stars}");
+                repositoriesCsv.AppendLine($@"""{repository.Owner}"",""{repository.Name}"",{repository.Stars}");
             }
 
             File.WriteAllText(
