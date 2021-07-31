@@ -4,6 +4,7 @@ using System.IO;
 using System.Linq;
 using Markdig;
 using Markdig.Extensions.Tables;
+using Markdig.Extensions.TaskLists;
 using Markdig.Syntax;
 using Markdig.Syntax.Inlines;
 using ServiceStack.Text;
@@ -105,6 +106,10 @@ namespace AnalyzeReadmes
                     f.Repository.NuGetPreviewMd,
                     f.Repository.Stars,
                     f.Kind));
+            var strikethroughRecords = ctx
+                .Strikethroughs
+                .OrderByDescending(r => r.Stars)
+                .Select(r => new GenericRecord(r.GitHubProjectMd, r.NuGetPreviewMd, r.Stars));
             var tableRecords = ctx
                 .Tables
                 .OrderByDescending(r => r.Stars)
@@ -115,11 +120,13 @@ namespace AnalyzeReadmes
                 .Select(r => new GenericRecord(r.GitHubProjectMd, r.NuGetPreviewMd, r.Stars));
 
             var disallowedHostsPath = Path.Combine(reportsPath, "disallowedImageHosts.csv");
+            var strikethroughPath = Path.Combine(reportsPath, "strikethroughs.csv");
             var codeFencesPath = Path.Combine(reportsPath, "codeFences.csv");
             var tablesPath = Path.Combine(reportsPath, "tables.csv");
             var htmlsPath = Path.Combine(reportsPath, "htmls.csv");
 
             File.WriteAllText(disallowedHostsPath, CsvSerializer.SerializeToString(disallowedHostRecords));
+            File.WriteAllText(strikethroughPath, CsvSerializer.SerializeToString(strikethroughRecords));
             File.WriteAllText(codeFencesPath, CsvSerializer.SerializeToString(codeFenceRecords));
             File.WriteAllText(tablesPath, CsvSerializer.SerializeToString(tableRecords));
             File.WriteAllText(htmlsPath, CsvSerializer.SerializeToString(htmlRecords));
@@ -143,6 +150,7 @@ namespace AnalyzeReadmes
                 if (node is Table) ctx.Tables.Add(repository);
                 if (node is HtmlBlock) ctx.Htmls.Add(repository);
                 if (node is FencedCodeBlock code) ctx.CodeFences.Add((code.Info, repository));
+                if (node is EmphasisInline { DelimiterChar: '~' }) ctx.Strikethroughs.Add(repository);
             }
         }
     }
@@ -161,11 +169,13 @@ namespace AnalyzeReadmes
         Dictionary<string, HashSet<Repo>> DisallowedHosts,
         HashSet<(string Kind, Repo Repository)> CodeFences,
         HashSet<Repo> Tables,
-        HashSet<Repo> Htmls)
+        HashSet<Repo> Htmls,
+        HashSet<Repo> Strikethroughs)
     {
         // TODO: Better way??
         public static AnalysisContext Create() => new(
             new(StringComparer.OrdinalIgnoreCase),
+            new(),
             new(),
             new(),
             new());
