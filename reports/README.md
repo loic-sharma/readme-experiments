@@ -37,3 +37,15 @@ NiPackageManifests
 | where ProjectUrl contains "github.com" or RepositoryUrl contains "github.com"
 | order by TotalDownloads desc
 ```
+
+The `packages-with-snupkgs.csv` is generated using the following SQL query:
+
+```sql
+SELECT DISTINCT pr.[Id], pr.[DownloadCount] FROM [Packages] p
+INNER JOIN [PackageRegistrations] pr
+ON [pr].[Key] = [p].[PackageRegistrationKey]
+WHERE p.[Key] IN (
+    SELECT [PackageKey] FROM [SymbolPackages]
+)
+ORDER BY pr.[DownloadCount] DESC
+```
