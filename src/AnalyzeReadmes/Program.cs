@@ -119,6 +119,16 @@ namespace AnalyzeReadmes
                     f.Repository.NuGetPreviewMd,
                     f.Repository.Stars,
                     f.Kind));
+            var specialLinkRecords = ctx
+                .SpecialLinks
+                .Select(l => new SpecialLinkRecord(
+                    l.Repository.GitHubProjectMd,
+                    l.Repository.NuGetPreviewMd,
+                    l.Repository.Stars,
+                    l.Link.Scheme,
+                    l.Link.Scheme == "mailto"
+                        ? "mailto:REDACTED"
+                        : l.Link.AbsoluteUri));
             var strikethroughRecords = ctx
                 .Strikethroughs
                 .OrderByDescending(r => r.Stars)
@@ -134,6 +144,7 @@ namespace AnalyzeReadmes
 
             var disallowedHostsPath = Path.Combine(reportsPath, "disallowedImageHosts.csv");
             var strikethroughPath = Path.Combine(reportsPath, "strikethroughs.csv");
+            var specialLinksPath = Path.Combine(reportsPath, "specialLinks.csv");
             var htmlElementPath = Path.Combine(reportsPath, "htmlElements.csv");
             var codeFencesPath = Path.Combine(reportsPath, "codeFences.csv");
             var tablesPath = Path.Combine(reportsPath, "tables.csv");
@@ -141,6 +152,7 @@ namespace AnalyzeReadmes
 
             File.WriteAllText(disallowedHostsPath, CsvSerializer.SerializeToString(disallowedHostRecords));
             File.WriteAllText(strikethroughPath, CsvSerializer.SerializeToString(strikethroughRecords));
+            File.WriteAllText(specialLinksPath, CsvSerializer.SerializeToString(specialLinkRecords));
             File.WriteAllText(htmlElementPath, CsvSerializer.SerializeToString(htmlElementRecords));
             File.WriteAllText(codeFencesPath, CsvSerializer.SerializeToString(codeFenceRecords));
             File.WriteAllText(tablesPath, CsvSerializer.SerializeToString(tableRecords));
@@ -151,14 +163,18 @@ namespace AnalyzeReadmes
         {
             foreach (var node in document.Descendants())
             {
-                if (node is LinkInline { IsImage: true} imageLink)
+                if (node is LinkInline link && Uri.TryCreate(link.Url, UriKind.Absolute, out var linkUri))
                 {
-                    if (Uri.TryCreate(imageLink.Url, UriKind.Absolute, out var imageUri))
+                    if (link.IsImage)
                     {
-                        if (!ImageHostsAllowList.Contains(imageUri.Host))
+                        if (!ImageHostsAllowList.Contains(linkUri.Host))
                         {
-                            ctx.TrackDisallowedImageHost(repository, imageUri.Host);
+                            ctx.TrackDisallowedImageHost(repository, linkUri.Host);
                         }
+                    }
+                    else if (linkUri.Scheme != "http" && linkUri.Scheme != "https")
+                    {
+                        ctx.SpecialLinks.Add((linkUri, repository));
                     }
                 }
 
@@ -178,6 +194,7 @@ namespace AnalyzeReadmes
 
     }
     record DisallowedHostRecord(string Host, string GitHubProject, string NuGetPreview, int Stars);
+    record SpecialLinkRecord(string GitHubProject, string NuGetPreview, int Stars, string Scheme, string Link);
     record HtmlElementRecord(string HtmlElement, string GitHubProject, string NuGetPreview, int Stars);
     record CodeFenceRecord(string GitHubProject, string NuGetPreview, int Stars, string CodeFenceKind);
     record GenericRecord(string GitHubProject, string NuGetPreview, int Stars);
@@ -186,6 +203,7 @@ namespace AnalyzeReadmes
         Dictionary<string, HashSet<Repo>> DisallowedHosts,
         Dictionary<string, HashSet<Repo>> HtmlElements,
         HashSet<(string Kind, Repo Repository)> CodeFences,
+        HashSet<(Uri Link, Repo Repository)> SpecialLinks,
         HashSet<Repo> Htmls,
         HashSet<Repo> Tables,
         HashSet<Repo> Strikethroughs)
@@ -194,6 +212,7 @@ namespace AnalyzeReadmes
         public static AnalysisContext Create() => new(
             new(StringComparer.OrdinalIgnoreCase),
             new(StringComparer.OrdinalIgnoreCase),
+            new(),
             new(),
             new(),
             new(),
